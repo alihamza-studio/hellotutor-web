@@ -91,6 +91,7 @@ export const footerTopNav: { titleKey: string; items: NavItem[] }[] = [
   {
     titleKey: 'footer.resources',
     items: [
+      { titleKey: 'nav.forSchools', href: '/for-schools' },
       { titleKey: 'footer.safeguarding', href: '/safeguarding' },
       { titleKey: 'footer.tutorsInDubai', href: '/tutors-in-dubai' },
       { titleKey: 'footer.tutorsInAbuDhabi', href: '/tutors-in-abu-dhabi' },

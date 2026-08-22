@@ -46,14 +46,14 @@ export function Hero() {
         muted
         playsInline
         preload="auto"
-        poster="https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/home/video-poster.png"
+        poster="https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/home/video-poster-no.png"
         disablePictureInPicture
         disableRemotePlayback
         className="bg-video absolute inset-0 w-full h-full object-cover pointer-events-none"
       >
         <source src="https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/home/hellotutor-hero.mp4" type="video/mp4" />
       </video>
-      
+
       {/* 40% Black Overlay for text readability */}
       <div className="absolute inset-0 bg-black/40 z-0 pointer-events-none" />
 

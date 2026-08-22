@@ -7,7 +7,10 @@
     "contactUs": "Contact Us",
     "copyright": "© {year} HelloTutor. All rights reserved.",
     "backToHome": "Back to Home",
-    "trustBadge": "MoHRE Licensed & DBS Checked"
+    "trustBadge": "MoHRE Licensed & DBS Checked",
+    "nav": {
+      "forSchools": "For Schools"
+    }
   },
   "hero": {
     "titleLine1": "The grades they need.",
@@ -2223,7 +2226,8 @@
     "martialArts": "Martial Arts",
     "music": "Music",
     "chess": "Chess",
-    "football": "Football"
+    "football": "Football",
+    "forSchools": "For Schools"
   },
   "subjects": {
     "allSubjects": "All Subjects",
@@ -8205,5 +8209,235 @@
         "cta": "See all FAQs"
       }
     }
+  },
+  "forSchools": {
+    "heroTitle": "Specialist one-to-one learning support, delivered through one platform.",
+    "heroSubtitle": "Hello Tutor gives schools a simple way to run targeted intervention. We match each pupil with a subject specialist, deliver sessions in our own online classroom, and give your team a clear record of every session. You set the focus. We handle delivery.",
+    "credibility": {
+      "stat1": "4.9 Star Rating",
+      "stat2": "95% Student Satisfaction",
+      "stat3": "Supporting UAE Students Since 2018"
+    },
+    "challenges": {
+      "title": "The gap most schools are trying to close",
+      "desc1": "Some pupils need more than the classroom can give them. Exam groups under pressure. Pupils behind grade level. Learners who need one voice, one focus, one hour at a time.",
+      "desc2": "Running that support in-house is hard. Staff time is finite. Quality varies. Records get lost. Hello Tutor closes the gap without adding to your team's load."
+    },
+    "targetAudience": {
+      "title": "Who it's for",
+      "subtitle": "Schools use Hello Tutor programmes for:",
+      "items": {
+        "1": {
+          "title": "Exam groups.",
+          "desc": "Focused support for pupils sitting IGCSE, A-Level, and IB."
+        },
+        "2": {
+          "title": "Catch-up.",
+          "desc": "Pupils working below grade level who need to close the gap."
+        },
+        "3": {
+          "title": "Curriculum transition.",
+          "desc": "Learners moving between British, IB, and American systems."
+        },
+        "4": {
+          "title": "Stretch.",
+          "desc": "High-ability pupils who need to go further than the classroom allows."
+        },
+        "5": {
+          "title": "Targeted subjects.",
+          "desc": "From core maths and sciences to humanities and languages, wherever the need is greatest."
+        }
+      }
+    },
+    "whatYouGet": {
+      "title": "What you get",
+      "subtitle": "A funded intervention programme, built around your priorities. Delivered online, one to one, on our platform.",
+      "items": {
+        "1": {
+          "title": "One-to-one sessions.",
+          "desc": "Every session is a single pupil and a single specialist, for a full 60 minutes. No group dilution."
+        },
+        "2": {
+          "title": "Matched specialists.",
+          "desc": "We match each pupil to a specialist by subject, level, and need. Our specialists come from leading universities and teach across British, IB, and American curriculum."
+        },
+        "3": {
+          "title": "Our online classroom.",
+          "desc": "Sessions run in a shared interactive workspace built by Hello Tutor. Every session is recorded and rewatchable, so pupils can revisit the work and your team can review the teaching."
+        },
+        "4": {
+          "title": "A written summary after every session.",
+          "desc": "Each session ends with a clear written record: what was covered, how the pupil did, and what comes next. Nothing is hidden."
+        },
+        "5": {
+          "title": "Progress you can see.",
+          "desc": "You get regular reporting on attendance, engagement, and progress across the cohort."
+        }
+      }
+    },
+    "builtForSchools": {
+      "title": "Built for schools, not bolted on",
+      "desc": "Hello Tutor is a technology platform. Booking, delivery, recording, reporting, and safeguarding sit in one system. Your team does not manage rotas, chase records, or handle payments session by session. We run the operation. You keep oversight."
+    },
+    "whyHelloTutor": {
+      "title": "Why Hello Tutor",
+      "items": {
+        "1": {
+          "title": "One-to-one only.",
+          "desc": "No group sessions. Every hour is spent on one pupil."
+        },
+        "2": {
+          "title": "Everything recorded.",
+          "desc": "Sessions and written summaries give you a full record, not a report you have to take on faith."
+        },
+        "3": {
+          "title": "One platform.",
+          "desc": "Matching, delivery, safeguarding, and reporting live in one place."
+        },
+        "4": {
+          "title": "Since 2018.",
+          "desc": "We have supported 5,000 families across the UAE."
+        },
+        "5": {
+          "title": "Specialists you can stand behind.",
+          "desc": "DBS-checked, many MOHRE-licensed, drawn from leading universities."
+        }
+      }
+    },
+    "safeguarding": {
+      "title": "Safeguarding and compliance",
+      "subtitle": "Safeguarding is built in, not added later.",
+      "items": {
+        "1": {
+          "title": "Checked and licensed",
+          "desc": "Specialists are DBS-checked and MOHRE-licensed."
+        },
+        "2": {
+          "title": "Recorded",
+          "desc": "Every session is recorded and stored."
+        },
+        "3": {
+          "title": "Secure",
+          "desc": "Recordings are held securely, with access limited to your team and ours."
+        },
+        "4": {
+          "title": "Visible",
+          "desc": "Access and records sit inside the platform, visible to your team."
+        }
+      },
+      "footer": "Full detail is set out in our safeguarding pack, shared on request."
+    },
+    "curriculum": {
+      "title": "Curriculum and subjects",
+      "subtitle": "British, IB, and American. Primary through A-Level and IB Diploma. We cover the subjects schools ask for most:",
+      "items": {
+        "1": {
+          "title": "Maths.",
+          "desc": "Primary maths through A-Level, IB HL and SL, and Additional Maths."
+        },
+        "2": {
+          "title": "Sciences.",
+          "desc": "Biology, Chemistry, Physics, and Combined Science."
+        },
+        "3": {
+          "title": "English.",
+          "desc": "Language and Literature, plus English as an additional language."
+        },
+        "4": {
+          "title": "Humanities.",
+          "desc": "History, Geography, Economics, Business, and Psychology."
+        },
+        "5": {
+          "title": "Languages.",
+          "desc": "Arabic, French, and Spanish."
+        },
+        "6": {
+          "title": "Computer Science and ICT.",
+          "desc": "Programming, theory, and practical applications."
+        }
+      },
+      "footer": "Need a subject that is not listed? Ask. We match to need."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": {
+        "1": {
+          "title": "Scope.",
+          "desc": "We agree the cohort, subjects, and goals with your team."
+        },
+        "2": {
+          "title": "Match.",
+          "desc": "We match each pupil to the right specialist."
+        },
+        "3": {
+          "title": "Deliver.",
+          "desc": "Sessions run in our online classroom, one to one."
+        },
+        "4": {
+          "title": "Record.",
+          "desc": "Every session is recorded, with a written summary to follow."
+        },
+        "5": {
+          "title": "Report.",
+          "desc": "You get regular reporting on attendance and progress."
+        }
+      }
+    },
+    "impact": {
+      "title": "Measuring impact",
+      "desc": "You should be able to point to results. We track engagement and progress across the programme and report back to you in a format you can share with leadership and parents. An impact summary is provided at the end of each block."
+    },
+    "pilot": {
+      "title": "Start with a pilot",
+      "desc": "You do not have to commit to a full programme on day one. Start with one cohort for a term. We deliver, report, and review with you at the end. If it works, we scale it."
+    },
+    "faqs": {
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you need to know before getting started.",
+      "items": [
+        {
+          "q": "How is this different from hiring our own staff?",
+          "a": "There is nothing to recruit, roster, or manage. We supply matched specialists, run every session on our platform, and hand you the records. Your team keeps oversight without the admin."
+        },
+        {
+          "q": "How quickly can a programme start?",
+          "a": "Once we have agreed the cohort and subjects, matching is fast. Most programmes can begin within weeks."
+        },
+        {
+          "q": "Is there a minimum cohort size?",
+          "a": "No fixed minimum. We size the programme to what you need, from a single exam group to a full year cohort."
+        },
+        {
+          "q": "Who chooses the pupils?",
+          "a": "You do. You set the priorities and the pupil list. We build the programme around them."
+        },
+        {
+          "q": "How do parents stay informed?",
+          "a": "Written summaries after every session give a clear record you can share. We can also report to parents directly if you prefer."
+        },
+        {
+          "q": "Where do sessions happen?",
+          "a": "In our online classroom. Pupils can attend from school or home, and every session is recorded and rewatchable."
+        },
+        {
+          "q": "What do pupils need to join?",
+          "a": "A laptop or tablet, a browser, and an internet connection. There is nothing to install."
+        },
+        {
+          "q": "What about data and safeguarding?",
+          "a": "Specialists are DBS-checked and MOHRE-licensed. Sessions are recorded and stored, and records sit inside the platform for your team to see. Full detail is in our safeguarding pack."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Start the conversation",
+      "desc": "Tell us the year groups and subjects you want to support. We will come back with a programme built around them.",
+      "email": "Email: support@hellotutor.me",
+      "whatsapp": "WhatsApp: +971 58 581 7335",
+      "btnCall": "Book a call",
+      "btnOverview": "Request an overview"
+    },
+    "metaTitle": "Hello Tutor for Schools | One-to-One Intervention Programmes UAE",
+    "metaDescription": "Fund targeted one-to-one intervention through Hello Tutor. Matched specialists, an online classroom, recorded sessions, and clear reporting for UAE schools."
   }
-}\n
+}
