@@ -39,7 +39,7 @@ export function AllSubjectsList({ translationKey, buttonHref }: AllSubjectsListP
   return (
     <section className="bg-surface py-16 lg:py-24 overflow-hidden border-t border-edge-subtle">
       <Container>
-        <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-12 lg:mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ export function AllSubjectsList({ translationKey, buttonHref }: AllSubjectsListP
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-body-lg text-content-secondary leading-relaxed"
+            className="text-body-lg text-content-secondary leading-relaxed max-w-3xl mx-auto"
           >
             {t('subtitle')}
           </motion.p>
