@@ -9,41 +9,44 @@ import { Logo } from '@/components/ui/Logo';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 import { MobileMenu } from './MobileMenu';
 import { Container } from './Container';
+import { TopBar } from './TopBar';
 import { siteConfig } from '@/config/site';
 import { cn } from '@/lib/utils';
 import { ChevronDown, ChevronRight, Menu } from 'lucide-react';
 
 function isActivePath(pathname: string, href: string): boolean {
- return pathname === href || pathname.endsWith(href);
+  return pathname === href || pathname.endsWith(href);
 }
 
 export function Header() {
- const t = useTranslations();
- const pathname = usePathname();
- const [isScrolled, setIsScrolled] = useState(false);
- const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const t = useTranslations();
+  const pathname = usePathname();
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
- const isTransparent = !isScrolled && pathname === '/';
+  const isTransparent = !isScrolled && pathname === '/';
 
- useEffect(() => {
- const handleScroll = () => {
- setIsScrolled(window.scrollY > 20);
- };
- window.addEventListener('scroll', handleScroll, { passive: true });
- return () => window.removeEventListener('scroll', handleScroll);
- }, []);
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
- return (
- <header
- className={cn(
- 'fixed top-0 start-0 end-0 z-[100] transition-all duration-normal border-b',
- isScrolled
- ? 'bg-surface/90 border-edge shadow-sm py-3 backdrop-blur-md'
- : 'bg-transparent border-transparent py-5',
- )}
- >
- <Container className="flex items-center justify-between">
- <Logo variant={isTransparent ? 'white' : 'black'} />
+  return (
+    <header className="fixed top-0 start-0 end-0 z-[100] transition-all duration-normal">
+      <TopBar />
+      <div
+        className={cn(
+          'transition-all duration-normal border-b',
+          isScrolled
+            ? 'bg-surface/90 border-edge shadow-sm py-3 backdrop-blur-md'
+            : 'bg-transparent border-transparent py-5',
+        )}
+      >
+        <Container className="flex items-center justify-between">
+          <Logo variant={isTransparent ? 'white' : 'black'} />
 
  {/* Desktop Navigation */}
  <nav className="hidden xl:flex items-center gap-1" aria-label="Main navigation">
@@ -190,9 +193,10 @@ export function Header() {
  >
  <Menu className="h-6 w-6" />
  </button>
- </Container>
+        </Container>
+      </div>
 
- <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
- </header>
- );
+      <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
+    </header>
+  );
 }

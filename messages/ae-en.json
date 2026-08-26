@@ -12,6 +12,10 @@
       "forSchools": "For Schools"
     }
   },
+  "topBar": {
+    "text": "Meet us at GESS Dubai, 10-12 Nov",
+    "cta": "Book a slot at our stand"
+  },
   "hero": {
     "titleLine1": "The grades they need.",
     "titleLine2": "The confidence they deserve.",
@@ -2145,7 +2149,7 @@
       },
       "allSubjectsList": {
         "title": "30+ subjects. One simple match.",
-        "subtitle": "Whatever your child is studying, chances are we cover it. Browse the full list below across primary to A-Level, IB, and beyond. Can't find the subject? Get in touch and we'll almost always have a tutor for it.",
+        "subtitle": "Whatever your child is studying, chances are we cover it. Browse the full list below across primary to A-Level, IB, and beyond. Can't find the subject? Get in touch and we will almost always have the right tutor.",
         "buttonText": "Get in touch",
         "list": [
           "Mathematics",

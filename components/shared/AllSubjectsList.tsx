@@ -55,7 +55,7 @@ export function AllSubjectsList({ translationKey, buttonHref }: AllSubjectsListP
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-body-lg text-content-secondary leading-relaxed max-w-3xl mx-auto"
+            className="text-body-lg text-content-secondary leading-relaxed max-w-4xl mx-auto"
           >
             {t('subtitle')}
           </motion.p>
