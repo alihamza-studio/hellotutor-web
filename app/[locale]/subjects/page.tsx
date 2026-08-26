@@ -4,6 +4,7 @@ import { createMetadata } from '@/lib/metadata';
 import type { Metadata } from 'next';
 import { BaseHero } from '@/components/shared/BaseHero';
 import { WhatWeCover } from '@/components/shared/WhatWeCover';
+import { AllSubjectsList } from '@/components/shared/AllSubjectsList';
 import { SubjectFAQs } from '@/components/shared/SubjectFAQs';
 import { CTASection } from '@/components/shared/CTASection';
 import { JsonLd } from '@/components/seo/JsonLd';
@@ -48,6 +49,7 @@ export default async function SubjectsPage({ params }: { params: Promise<{ local
           'https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/all-subjects/Exam%20Preparation.webp',
         ]}
       />
+      <AllSubjectsList translationKey="subjectPages.allSubjects.allSubjectsList" />
       <SubjectFAQs translationKey="subjectPages.allSubjects.faqs" />
       <CTASection />
     </>
