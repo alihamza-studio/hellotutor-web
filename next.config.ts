@@ -3,6 +3,91 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin();
 
+/**
+ * Helper to generate redirect rules for both localized (e.g. /ae-en/... and /ae-ar/...)
+ * and bare/unprefixed URLs (which default to /ae-en/...).
+ */
+function createRedirectPair(sourcePath: string, destinationPath: string, permanent = true) {
+  return [
+    {
+      source: `/:locale(ae-en|ae-ar)${sourcePath}`,
+      destination: `/:locale${destinationPath}`,
+      permanent,
+    },
+    {
+      source: sourcePath,
+      destination: `/ae-en${destinationPath}`,
+      permanent,
+    },
+  ];
+}
+
+const legacyRedirectPairs: [string, string][] = [
+  // Bare "levels" slugs — old Figma URLs
+  ['/ks3-tutors', '/levels/secondary-tutors/ks3'],
+  ['/gcse-tutors', '/levels/secondary-tutors/gcse'],
+  ['/igcse-tutors', '/levels/secondary-tutors/igcse'],
+  ['/a-level-tutors', '/levels/secondary-tutors/a-level'],
+  ['/primary-tutors', '/levels/primary-tutors'],
+  ['/secondary-tutors', '/levels/secondary-tutors/ks3'],
+
+  // Old /levels/ prefixed URLs
+  ['/levels/gcse-tutors', '/levels/secondary-tutors/gcse'],
+  ['/levels/igcse-tutors', '/levels/secondary-tutors/igcse'],
+  ['/levels/a-level-tutors', '/levels/secondary-tutors/a-level'],
+  ['/levels/ks3-tutors', '/levels/secondary-tutors/ks3'],
+  ['/levels/secondary-tutors', '/levels/secondary-tutors/ks3'],
+  ['/levels/university-admissions', '/university-admissions'],
+  ['/levels/admissions-abroad', '/admissions-abroad'],
+  ['/levels', ''],
+
+  // Subject slugs — old Figma URLs
+  ['/maths-tutoring', '/subjects/maths-tutoring'],
+  ['/science-tutoring', '/subjects/science-tutoring'],
+  ['/english-tutoring', '/subjects/english-tutoring'],
+  ['/arabic-tutoring', '/subjects/arabic-tutoring'],
+  ['/chemistry-tutoring', '/subjects/chemistry-tutoring'],
+  ['/physics-tutoring', '/subjects/physics-tutoring'],
+  ['/biology-tutoring', '/subjects/biology-tutoring'],
+  ['/subjects/exam-preparation', '/exam-preparation'],
+  ['/exam-prep', '/exam-preparation'],
+
+  // About, Parents, Safety, and Info pages
+  ['/about/all-faqs', '/faqs'],
+  ['/about/for-parents', '/parents'],
+  ['/about/safety-and-trust', '/safety-and-trust'],
+  ['/about-us', '/about'],
+  ['/for-parents', '/parents'],
+  ['/all-faqs', '/faqs'],
+  ['/safety', '/safety-and-trust'],
+
+  // FAQ tab shortcuts
+  ['/students-faqs', '/faqs?tab=students'],
+  ['/tutors-faqs', '/faqs?tab=tutors'],
+  ['/parents-faqs', '/faqs?tab=parents'],
+  ['/student-faqs', '/faqs?tab=students'],
+  ['/tutor-faqs', '/faqs?tab=tutors'],
+  ['/parent-faqs', '/faqs?tab=parents'],
+
+  // Location aliases & typos
+  ['/tutors-in-abuDhabi', '/tutors-in-abu-dhabi'],
+  ['/tutors-in-abudhabi', '/tutors-in-abu-dhabi'],
+  ['/dubai', '/tutors-in-dubai'],
+  ['/abu-dhabi', '/tutors-in-abu-dhabi'],
+  ['/sharjah', '/tutors-in-sharjah'],
+
+  // Activities
+  ['/activities', ''],
+  ['/martial-arts', '/activities/martial-arts'],
+  ['/music', '/activities/music'],
+  ['/chess', '/activities/chess'],
+  ['/football', '/activities/football'],
+
+  // Schools
+  ['/schools', '/for-schools'],
+  ['/school', '/for-schools'],
+];
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
@@ -18,18 +103,16 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      { source: '/:locale(ae-en|ae-ar)?/about/all-faqs', destination: '/:locale/faqs', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/about/for-parents', destination: '/:locale/parents', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/about/safety-and-trust', destination: '/:locale/safety-and-trust', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/subjects/exam-preparation', destination: '/:locale/exam-preparation', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/levels/gcse-tutors', destination: '/:locale/levels/secondary-tutors/gcse', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/levels/igcse-tutors', destination: '/:locale/levels/secondary-tutors/igcse', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/levels/a-level-tutors', destination: '/:locale/levels/secondary-tutors/a-level', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/levels/ks3-tutors', destination: '/:locale/levels/secondary-tutors/ks3', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/tutors-in-abuDhabi', destination: '/:locale/tutors-in-abu-dhabi', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/students-faqs', destination: '/:locale/faqs?tab=students', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/tutors-faqs', destination: '/:locale/faqs?tab=tutors', permanent: true },
-      { source: '/:locale(ae-en|ae-ar)?/levels', destination: '/:locale', permanent: true },
+      // Legacy /en and /ar locale redirects
+      { source: '/en', destination: '/ae-en', permanent: true },
+      { source: '/ar', destination: '/ae-ar', permanent: true },
+      { source: '/en/:path*', destination: '/ae-en/:path*', permanent: true },
+      { source: '/ar/:path*', destination: '/ae-ar/:path*', permanent: true },
+
+      // Generated locale-aware and bare legacy URL redirects
+      ...legacyRedirectPairs.flatMap(([source, destination]) =>
+        createRedirectPair(source, destination),
+      ),
     ];
   },
   async headers() {
