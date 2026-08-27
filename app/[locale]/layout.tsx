@@ -96,7 +96,6 @@ export default async function LocaleLayout({
   return (
     <html lang={htmlLang} dir={dir} suppressHydrationWarning className={`${notoSansArabic.variable} ${interTight.variable} ${awesomeSerif.variable}`}>
       <head>
-        <JsonLd />
         <link rel="preconnect" href="https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev" crossOrigin="anonymous" />
         <link rel="icon" href="/favicon.ico?v=2" sizes="32x32" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=2" />
@@ -104,6 +103,7 @@ export default async function LocaleLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=2" />
       </head>
       <body suppressHydrationWarning className="antialiased min-h-screen flex flex-col">
+        <JsonLd />
         <a href="#main-content" className="skip-to-content">
           Skip to main content
         </a>
