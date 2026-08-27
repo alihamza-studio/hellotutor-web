@@ -8480,5 +8480,18 @@
     },
     "metaTitle": "Hello Tutor for Schools | One-to-One Intervention Programmes UAE",
     "metaDescription": "Fund targeted one-to-one intervention through Hello Tutor. Matched specialists, an online classroom, recorded sessions, and clear reporting for UAE schools."
+  },
+  "studentsFaqs": {
+    "metaTitle": "Student FAQs | Hello Tutor Dubai & UAE",
+    "metaDescription": "Answers to common questions for students using Hello Tutor. Learn about getting started, lessons, subjects and online tutoring in Dubai & UAE."
+  },
+  "tutorsFaqs": {
+    "metaTitle": "Tutor FAQs | Join Hello Tutor Dubai & UAE",
+    "metaDescription": "Answers to common questions for tutors joining Hello Tutor. Learn about requirements, application process, payments and tutoring in Dubai & UAE."
+  },
+  "admissionsAbroad": {
+    "metaTitle": "University Admissions Abroad | Hello Tutor",
+    "metaDescription": "Expert guidance for UAE students applying to UK, US, Canadian and European universities. Application, visa and accommodation support.",
+    "title": "University Admissions Abroad"
   }
 }

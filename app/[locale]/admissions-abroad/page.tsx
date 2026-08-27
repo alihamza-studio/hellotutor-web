@@ -10,10 +10,10 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'levels' });
+  const t = await getTranslations({ locale, namespace: 'admissionsAbroad' });
   return createMetadata({
-    title: t('admissionsAbroad'),
-    description: t('admissionsAbroad'),
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     path: '/admissions-abroad',
     locale,
   });
@@ -26,7 +26,7 @@ export default async function AdmissionsAbroadPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations('levels');
+  const t = await getTranslations('admissionsAbroad');
 
   return (
     <>
@@ -41,7 +41,7 @@ export default async function AdmissionsAbroadPage({
       />
       <div className="pt-32 pb-20 min-h-[60vh]">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold mb-6">{t('admissionsAbroad')}</h1>
+          <h1 className="text-4xl font-bold mb-6">{t('title')}</h1>
           {/* Content will be added here later */}
         </div>
       </div>

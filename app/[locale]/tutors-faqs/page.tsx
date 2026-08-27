@@ -1,4 +1,4 @@
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { createMetadata } from '@/lib/metadata';
 import { Container } from '@/components/layout/Container';
 import { Section } from '@/components/layout/Section';
@@ -10,10 +10,10 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'tutorsFaqs' });
   return createMetadata({
-    title: 'Tutor FAQs | Hello Tutor Online Tutoring Dubai & UAE',
-    description:
-      'Answers to common questions for tutors joining Hello Tutor. Learn about applying, payments, safety and teaching in Dubai & UAE.',
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     path: '/tutors-faqs',
     locale,
   });
