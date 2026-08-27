@@ -31,8 +31,12 @@ export function createMetadata({
   const enUrl = `${siteConfig.url}/ae-en${finalPath}`;
   const arUrl = `${siteConfig.url}/ae-ar${finalPath}`;
 
-  const hasBrand = title.includes('Hello Tutor') || title.includes('HelloTutor');
-  const finalTitle = hasBrand ? title : `${title} | Hello Tutor`;
+  const hasBrand =
+    title.includes('Hello Tutor') ||
+    title.includes('HelloTutor') ||
+    title.includes('هيلو تيوتر') ||
+    title.includes('هالو تيوتر');
+  const finalTitle = hasBrand ? title : (locale === 'ae-ar' ? `${title} | هيلو تيوتر` : `${title} | Hello Tutor`);
 
   return {
     title: finalTitle,
