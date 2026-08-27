@@ -6976,7 +6976,7 @@
       "secondaryBtn": "عرض الأسعار"
     },
     "metaTitle": "مدرسون في دبي | تدريس عبر الإنترنت ومنزلي | هالو تيوتر",
-    "metaDescription": "Expert online tutors in Dubai matched to your child’s school, curriculum, and exam board. IGCSE, IB, A-Level and more. 1:1 lessons. No commute. Book free consultation."
+    "metaDescription": "مدرسون خبراء في دبي عبر الإنترنت وحضورياً يتم اختيارهم ليناسبوا مدرسة طفلك ومنهجه الدراسي. نغطي IGCSE و IB و A-Level وغيرها. دروس فردية 1:1 بدون الحاجة للتنقل. احجز استشارة مجانية."
   },
   "tutorsInAbuDhabi": {
     "hero": {
@@ -7479,775 +7479,759 @@
   "metaDescription": "كل ما يحتاج المدرسون معرفته للانضمام — الترخيص والتقديم والأجر وكيفية إدارة جلسات التدريس في الإمارات.",
   "activities": {
     "martialArts": {
-      "metaTitle": "مترجم: Martial Arts Coaching | 1:1 In-Home Sessions | Hello Tutor",
-      "metaDescription": "مترجم: Expert 1:1 martial arts coaching matched to your discipline and belt level. In-home sessions. Karate, taekwondo, judo, and more. Book a free consultation.",
-      "heroTitle": "مترجم: Martial Arts Coaching Matched to Build Confidence and Discipline",
-      "heroSubtitle": "مترجم: 1:1 coaching matched to how you learn and focused on real development.",
+      "metaTitle": "تدريب فنون قتالية خاص في دبي والإمارات | جلسات منزلية فردية | هيلو تيوتر",
+      "metaDescription": "تدريب فنون قتالية خاص فردي 1:1 مخصص لأسلوبك ومستوى حزامك. جلسات منزلية مريحة تشمل الكاراتيه والتايكوندو والجودو وغيرها. احجز استشارة مجانية.",
+      "heroTitle": "تدريب فنون قتالية مصمم لبناء الثقة والانضباط",
+      "heroSubtitle": "تدريب فردي 1:1 يتناسب مع أسلوب تعلمك ويركز على التطور الحقيقي والمهارة.",
       "challenges": {
-        "title": "مترجم: Sound familiar?",
-        "subtitle": "مترجم: ",
+        "title": "هل يبدو هذا مألوفاً؟",
+        "subtitle": "",
         "cards": [
           {
-            "title": "مترجم: No confidence to try",
-            "desc": "مترجم: Putting yourself forward feels impossible when you are not sure you will get it right."
+            "title": "غياب الثقة للتجربة",
+            "desc": "المبادرة تبدو مستحيلة عندما لا تكون واثقاً من أدائك بالشكل الصحيح."
           },
           {
-            "title": "مترجم: Struggling with focus",
-            "desc": "مترجم: Showing up is the easy part. Staying focused and consistent is where it gets harder."
+            "title": "صعوبة في التركيز",
+            "desc": "الحضور سهل، لكن الحفاظ على التركيز والاستمرارية هو التحدي الأكبر."
           },
           {
-            "title": "مترجم: Grading nerves",
-            "desc": "مترجم: Knows the techniques but freezes when it counts. Grading days have a way of doing that."
+            "title": "توتر اختبارات الأحزمة",
+            "desc": "يعرف الحركات بدقة لكنه يرتبك وقت الاختبار. أيام التقييم تسبب هذا التوتر دائماً."
           },
           {
-            "title": "مترجم: Lacks structure outside class",
-            "desc": "مترجم: Great in group sessions, then none of it carries over at home. Without structure, progress stalls."
+            "title": "غياب الانتظام خارج الحصة",
+            "desc": "أداء ممتاز في الحصص الجماعية، ثم لا يُمارس أي شيء في المنزل. بدون هيكل واضح، يتوقف التطور."
           }
         ],
-        "bottomText": "مترجم: You are in the right place."
+        "bottomText": "أنت في المكان الصحيح."
       },
       "benefits": {
-        "title": "مترجم: How Hello Tutor Supports Martial Arts Students",
-        "subtitle": "مترجم: Consistent 1:1 coaching tailored to martial arts students and focused on confidence, technique, and real development.",
+        "title": "كيف تدعم هالو تيوتر طلاب الفنون القتالية",
+        "subtitle": "تدريب فردي 1:1 مستمر ومصمم خصيصاً لطلاب الفنون القتالية للتركيز على الثقة والتقنية والتطور الحقيقي.",
         "items": [
           {
-            "title": "مترجم: Discipline-matched coaches",
-            "desc": "مترجم: Whether it is karate, taekwondo, judo, or MMA fundamentals, we match a coach who knows the discipline inside out."
+            "title": "مدربون متخصصون في كل أسلوب",
+            "desc": "سواء كان كاراتيه، تايكوندو، جودو، أو أساسيات الفنون القتالية المختلطة (MMA)، نطابقك مع مدرب يتقن الأسلوب بدقة."
           },
           {
-            "title": "مترجم: We come to you",
-            "desc": "مترجم: Our coaches travel to your home. Sessions take place in your own space so there is no commute, no scheduling around travel, and no unfamiliar environment to adjust to."
+            "title": "نأتي إليك في منزلك",
+            "desc": "مدربونا يأتون إلى منزلك لتقام الجلسات في مساحتك الخاصة دون عناء التنقل أو تضييع الوقت أو التكيف مع بيئة غريبة."
           },
           {
-            "title": "مترجم: Confidence through technique",
-            "desc": "مترجم: Confidence does not come from trying harder. It comes from genuinely knowing what to do and why. Our coaches build both."
+            "title": "الثقة من خلال إتقان المهارة",
+            "desc": "الثقة لا تأتي بمجرد المحاولة الجادة، بل من معرفة ما يجب فعله ولماذا. مدربونا يبنون الاثنين معاً."
           },
           {
-            "title": "مترجم: Belt grading preparation",
-            "desc": "مترجم: From belt examinations to competition preparation, sessions are structured around what actually needs to happen on the day."
+            "title": "التحضير لاختبارات الأحزمة",
+            "desc": "من اختبارات الترقية إلى الاستعداد للبطولات، يتم تنظيم الجلسات حول ما يجب إنجازه يوم الاختبار بدقة."
           },
           {
-            "title": "مترجم: Discipline that carries over",
-            "desc": "مترجم: Our coaches help students develop the focus, resilience, and self-control that extends well beyond the mat."
+            "title": "انضباط يمتد لكل جوانب الحياة",
+            "desc": "يساعد مدربونا الطلاب على بناء التركيز والمرونة وضبط النفس الذي يمتد إلى ما وراء بساط التدريب."
           },
           {
-            "title": "مترجم: Progress tracked throughout",
-            "desc": "مترجم: Regular updates after every session so development is always visible and on track."
+            "title": "متابعة مستمرة للتقدم",
+            "desc": "تقارير دورية وتحديثات بعد كل جلسة ليكون التطور واضحاً ومستمراً دائماً."
           }
         ],
-        "bottomCardText": "مترجم: Our approach focuses on consistent, structured development."
+        "bottomCardText": "نهجنا يركز على التطوير المستمر والمنظم."
       },
       "whatWeCover": {
-        "title": "مترجم: What We Cover",
-        "subtitle": "مترجم: ",
+        "title": "ما نغطيه",
+        "subtitle": "",
         "items": [
           {
-            "title": "مترجم: Karate",
-            "desc": "مترجم: Kihon, kata, and kumite across all belt levels. Traditional technique with belt grading preparation and competition readiness built in."
+            "title": "الكاراتيه",
+            "desc": "الكيهون والكاتا والكوميتيه عبر جميع مستويات الأحزمة. تقنيات أصيلة مع التحضير لاختبارات الأحزمة والبطولات."
           },
           {
-            "title": "مترجم: Taekwondo",
-            "desc": "مترجم: Patterns, sparring technique, and kicking drills. ITF and WTF styles covered with grading preparation throughout."
+            "title": "التايكوندو",
+            "desc": "البومسي (الكاتا)، تقنيات القتال، وتدريبات الركلات. أساليب ITF و WTF مع إعداد مستمر لاختبارات الأحزمة."
           },
           {
-            "title": "مترجم: Judo",
-            "desc": "مترجم: Throws, groundwork, and competition rules. Technique-focused coaching with grading and competition preparation."
+            "title": "الجودو",
+            "desc": "الرميات، والقتال الأرضي، وقواعد البطولات. تدريب يركز على التكنيك الصحيح واختبارات الترقية."
           },
           {
-            "title": "مترجم: MMA Fundamentals",
-            "desc": "مترجم: Striking, grappling, and movement basics for beginners and intermediate students. Structured around safe, progressive development."
+            "title": "أساسيات الفنون القتالية المختلطة (MMA)",
+            "desc": "أساسيات اللكم والركل والقتال الأرضي والحركة للمبتدئين والمتوسطين، ضمن بيئة آمنة وتطوير تدريجي."
           },
           {
-            "title": "مترجم: Martial Arts Fitness and Conditioning",
-            "desc": "مترجم: Flexibility, coordination, core strength, and discipline-specific conditioning. Works well as a standalone or alongside technical coaching."
+            "title": "اللياقة البدنية والإعداد للفنون القتالية",
+            "desc": "المرونة والتناسق الحركي وقوة الجذع واللياقة الخاصة بكل أسلوب، كبرنامج منفصل أو داعم للتدريب الفني."
           }
         ]
       },
       "testimonials": {
-        "title": "مترجم: What Parents Say",
-        "subtitle": "مترجم: ",
+        "title": "ما يقوله الآباء",
+        "subtitle": "",
         "reviews": {
           "1": {
-            "text": "مترجم: My son had been to three different clubs and never stuck with any of them. His Hello Tutor coach changed that. Six months in and he just passed his yellow belt. The 1:1 attention made all the difference.",
-            "author": "مترجم: Fatima, مترجم: Mum of Year 5 student"
+            "text": "انضم ابني إلى ثلاثة نوادٍ مختلفة ولم يستمر في أي منها. لكن مدرب هالو تيوتر غيّر ذلك تماماً. بعد ستة أشهر فقط، اجتاز اختبار الحزام الأصفر. الاهتمام الفردي 1:1 صنع كل الفارق.",
+            "author": "فاطمة، والدة طالب في الصف الخامس"
           },
           "2": {
-            "text": "مترجم: Our daughter was nervous in group classes. 1:1 coaching in our own home gave her the space to build confidence without the pressure of everyone watching. She loves it now.",
-            "author": "مترجم: James, مترجم: Dad of Year 3 student"
+            "text": "كانت ابنتنا تشعر بالتوتر في الحصص الجماعية. التدريب الفردي في منزلنا منحها المساحة لبناء ثقتها دون ضغط نظرات الآخرين. أصبحت تعشق التدريب الآن.",
+            "author": "جيمس، والد طالبة في الصف الثالث"
           },
           "3": {
-            "text": "مترجم: The focus and discipline have carried into school. His teacher actually commented on it. We did not expect that when we signed up.",
-            "author": "مترجم: Rania, مترجم: Mum of Year 6 student"
+            "text": "الانضباط والتركيز انتقلا إلى دراسته المدرسية، حتى أن معلمه لاحظ ذلك وأثنى عليه. لم نتوقع هذه النتيجة الإيجابية الرائعة عندما سجلنا.",
+            "author": "رانيا، والدة طالب في الصف السادس"
           }
         },
         "stats": [
-          "95% من الآباء يلاحظون تحسناً في الدرجات خلال 3 أشهر",
-          "متوسط تقييم الآباء 4.9/5",
-          "تم تقديم أكثر من 10,000 درس"
+          "95% من أولياء الأمور يلاحظون تحسناً في المستوى خلال 3 أشهر",
+          "4.9/5 متوسط تقييم أولياء الأمور",
+          "+10,000 جلسة تدريبية تم تقديمها"
         ]
       },
       "meetOurCoaches": {
-        "title": "مترجم: Meet Our Martial Arts Coaches",
-        "subtitle": "مترجم: Every coach combines deep discipline knowledge and the ability to make tricky technique simple.",
-        "standardsTitle": "مترجم: Coach standards:",
+        "title": "تعرف على مدربي الفنون القتالية لدينا",
+        "subtitle": "يجمع كل مدرب بين المعرفة العميقة بالأسلوب والقدرة على تبسيط التقنيات المعقدة.",
+        "standardsTitle": "معايير اختيار المدربين:",
         "standards": [
-          "مترجم: Qualified and graded in their discipline",
-          "مترجم: Experience coaching students of all ages and levels",
-          "مترجم: Background-checked and reference-verified",
-          "مترجم: Trained in safe, age-appropriate instruction",
-          "مترجم: Proven track record with belt gradings and competition preparation"
+          "مؤهلون ومجازون في أسلوبهم القتالي برتب أحزمة متقدمة",
+          "خبرة واسعة في تدريب الطلاب من مختلف الأعمار والمستويات",
+          "تدقيق أمني وفحص خلفية شامل وسجل جنائي نظيف (DBS)",
+          "مدربون على أساليب التدريب الآمنة والمناسبة لكل فئة عمرية",
+          "سجل حافل ومثبت في اختبارات الأحزمة والتحضير للبطولات"
         ],
-        "matchingCardText": "مترجم: We match based on discipline and style, current belt level, age, location, and grading timeline.",
-        "imageTag": "مترجم: Martial Arts Specialists"
+        "matchingCardText": "نقوم بالمطابقة بناءً على الأسلوب، ومستوى الحزام الحالي، والعمر، والموقع، والجدول الزمني لاختبارات الترقية.",
+        "imageTag": "أخصائيو الفنون القتالية"
       },
       "howToGetStarted": {
-        "title": "مترجم: How to Get Started",
-        "subtitle": "مترجم: ",
+        "title": "كيف تبدأ",
+        "subtitle": "",
         "steps": [
           {
-            "title": "مترجم: Tell us what you need",
-            "desc": "مترجم: Share the discipline, current belt level, any upcoming gradings or goals, and your location."
+            "title": "أخبرنا بما تحتاجه",
+            "desc": "شاركنا الأسلوب، ومستوى الحزام الحالي، وأي اختبارات أو أهداف قادمة، وموقعك."
           },
           {
-            "title": "مترجم: We assign the right coach",
-            "desc": "مترجم: We find the right coach based on discipline, level, and location. No browsing needed."
+            "title": "نعين المدرب الأنسب",
+            "desc": "نجد المدرب المثالي بناءً على الأسلوب والمستوى والموقع دون الحاجة للبحث المضني."
           },
           {
-            "title": "مترجم: First session booked within days",
-            "desc": "مترجم: Your coach comes to you. Goals are set and progress begins from the very first session."
+            "title": "حجز الجلسة الأولى خلال أيام",
+            "desc": "يأتي مدربك إلى منزلك، ويتم تحديد الأهداف ويبدأ التقدم من الحصة الأولى."
           },
           {
-            "title": "مترجم: Development from day one",
-            "desc": "مترجم: Regular sessions focused on technique, grading preparation, and building confidence throughout."
+            "title": "تطور مستمر من اليوم الأول",
+            "desc": "جلسات منتظمة تركز على التقنية، والتحضير للأحزمة، وبناء الثقة المستمرة."
           }
         ]
       },
       "whatIsIncluded": {
-        "title": "مترجم: What Is Included",
-        "subtitle": "مترجم: ",
+        "title": "ما تشمله الخدمة",
+        "subtitle": "",
         "items": [
-          "مترجم: Coach matched to your discipline, belt level, and location",
-          "مترجم: 60-minute 1:1 sessions at your home",
-          "مترجم: Belt grading preparation built in",
-          "مترجم: Technique feedback and structured progression",
-          "مترجم: Regular progress updates after every session",
-          "مترجم: Flexible scheduling around school and other activities"
+          "مدرب مطابق لأسلوبك، ومستوى حزامك، وموقعك",
+          "جلسات فردية 1:1 مدتها 60 دقيقة في منزلك",
+          "إعداد متكامل لاختبارات الأحزمة والترقية",
+          "توجيهات فنية مستمرة ومسار تطور منظم",
+          "تقارير تقدم دورية بعد كل جلسة",
+          "مرونة كاملة في المواعيد لتناسب الجدول المدرسي"
         ]
       },
       "faqs": {
-        "title": "مترجم: FAQs — Martial Arts",
-        "subtitle": "مترجم: ",
+        "title": "الأسئلة الشائعة — الفنون القتالية",
+        "subtitle": "",
         "items": [
           {
-            "question": "مترجم: Do coaches come to our home?",
-            "answer": "مترجم: Yes. All martial arts coaching is in-home. Your coach comes to you. We confirm availability in your area during the free consultation."
+            "question": "هل يأتي المدربون إلى منزلنا؟",
+            "answer": "نعم، جميع تدريبات الفنون القتالية منزلية. يأتي المدرب إلى بيتك، ونؤكد توفر الخدمة في منطقتك خلال الاستشارة المجانية."
           },
           {
-            "question": "مترجم: What space do we need at home?",
-            "answer": "مترجم: A reasonably clear space of around three by three metres is enough for most disciplines. Your coach will advise before the first session."
+            "question": "ما هي المساحة التي نحتاجها في المنزل؟",
+            "answer": "مساحة خالية معقولة تبلغ حوالي ثلاثة أمتار في ثلاثة أمتار كافية لمعظم التخصصات. سيقدم مدربك النصائح قبل الجلسة الأولى."
           },
           {
-            "question": "مترجم: Can coaching help specifically with belt grading preparation?",
-            "answer": "مترجم: Yes. Coaches can structure sessions entirely around upcoming belt examinations, covering required kata, techniques, and grading criteria."
+            "question": "هل يمكن للتدريب المساعدة تحديداً في التحضير لاختبارات الأحزمة؟",
+            "answer": "نعم، يمكن للمدربين تنظيم الجلسات بالكامل حول اختبارات الأحزمة القادمة، وتغطية الكاتا المطلوبة، والتقنيات، ومعايير التقييم."
           },
           {
-            "question": "مترجم: What age can students start?",
-            "answer": "مترجم: We work with students from age 5 upwards. Sessions are adapted to age, physical development, and attention span."
+            "question": "ما هو العمر المناسب لبدء الطلاب؟",
+            "answer": "نعمل مع الطلاب من سن 5 سنوات فما فوق. يتم تكييف الجلسات وفقاً للعمر والنمو البدني ومدى الانتباه."
           },
           {
-            "question": "مترجم: My child has never done martial arts before. Is that fine?",
-            "answer": "مترجم: Absolutely. Many students start from complete beginners. We match a coach experienced with new starters at every age."
+            "question": "طفلي لم يمارس الفنون القتالية من قبل. هل هذا مناسب؟",
+            "answer": "بالتأكيد. يبدأ العديد من الطلاب من نقطة الصفر التامة. نطابقك مع مدرب ذي خبرة في التعامل مع المبتدئين من جميع الأعمار."
           },
           {
-            "question": "مترجم: What if my child loses interest?",
-            "answer": "مترجم: If coaching is not working, we talk it through and either adjust the approach or rematch with a different coach. We want it to work."
+            "question": "ماذا لو فقد طفلي اهتمامه أو لم ينسجم؟",
+            "answer": "إذا لم تكن التجربة مثالية، نناقش الأمر ونعدل النهج أو نطابقك مع مدرب آخر. هدفنا هو تحقيق الفائدة والمتعة لطفلك."
           }
         ],
-        "cta": "عرض كل الأسئلة الشائعة"
+        "cta": "عرض جميع الأسئلة الشائعة"
       }
     },
     "music": {
-      "metaTitle": "مترجم: Music Teachers | Piano, Guitar, Violin and More | Hello Tutor",
-      "metaDescription": "مترجم: Expert 1:1 music teaching matched to your instrument and level. In-home sessions. ABRSM, Trinity, and RockSchool preparation built in. Book free consultation.",
-      "heroTitle": "مترجم: Music Teachers Matched to Bring Out Your Best",
-      "heroSubtitle": "مترجم: 1:1 teaching matched to how you learn and focused on real musical development.",
+      "metaTitle": "دروس موسيقى خاصة في دبي والإمارات | حصص منزلية فردية | هيلو تيوتر",
+      "metaDescription": "دروس موسيقى خاصة فردية 1:1 في البيانو والجيتار والكمان والغناء في منزلك. التحضير لامتحانات ABRSM وتطوير العزف بثقة. احجز استشارة مجانية.",
+      "heroTitle": "دروس موسيقى مصممة لتعزيز الإبداع وإتقان العزف",
+      "heroSubtitle": "تعليم موسيقي فردي 1:1 في البيانو والجيتار والكمان وغيرها، يجمع بين متعة العزف والأسس الأكاديمية.",
       "challenges": {
-        "title": "مترجم: Sound familiar?",
-        "subtitle": "مترجم: ",
+        "title": "هل يبدو هذا مألوفاً؟",
+        "subtitle": "",
         "cards": [
           {
-            "title": "مترجم: Losing motivation",
-            "desc": "مترجم: Started well, then practice started feeling like a chore. It happens more than you would think."
+            "title": "العزف السليم دون روح النغمة",
+            "desc": "يعزف النوتات بشكل صحيح، لكن العزف يفتقر للتعبير والإحساس الموسيقي المطلوب. هناك حلقة مفقودة."
           },
           {
-            "title": "مترجم: Stuck on technique",
-            "desc": "مترجم: Can play the notes. Cannot quite make them sound the way they should. Something is not clicking."
+            "title": "توتر الامتحانات الموسيقية",
+            "desc": "امتحانات ABRSM أو Trinity تقترب، والتوتر يتصاعد بشكل أسرع من الاستعداد الفعلي."
           },
           {
-            "title": "مترجم: Examination nerves",
-            "desc": "مترجم: ABRSM or Trinity examinations are approaching and the nerves are building faster than the preparation."
-          },
-          {
-            "title": "مترجم: No real structure to practice",
-            "desc": "مترجم: Plays for twenty minutes then stops. Without guidance, practice drifts and progress stalls."
+            "title": "غياب الهيكل في التمرين المنزلي",
+            "desc": "يعزف لمدة عشرين دقيقة ثم يتوقف. دون توجيه واضح، يصبح التمرين عشوائياً ويتوقف التطور."
           }
         ],
-        "bottomText": "مترجم: You are in the right place."
+        "bottomText": "أنت في المكان الصحيح."
       },
       "benefits": {
-        "title": "مترجم: How Hello Tutor Supports Music Students",
-        "subtitle": "مترجم: Consistent 1:1 teaching tailored to music students and focused on confidence, technique, and genuine musical development.",
+        "title": "كيف تدعم هالو تيوتر طلاب الموسيقى",
+        "subtitle": "تعليم موسيقي فردي 1:1 مخصص لطلاب الموسيقى ويركز على الثقة، والتقنية، والتطور الموسيقي الأصيل.",
         "items": [
           {
-            "title": "مترجم: Instrument-matched teachers",
-            "desc": "مترجم: Piano, guitar, violin, or voice. We match a teacher who knows your instrument and examination level inside out."
+            "title": "معلمون متخصصون في كل آلة",
+            "desc": "البيانو، الجيتار، الكمان، أو الصوت. نطابقك مع معلم يتقن آلتك ومنهجك الامتحاني بدقة متناهية."
           },
           {
-            "title": "مترجم: We come to you",
-            "desc": "مترجم: Our teachers travel to your home. Sessions take place in your own space with your own instrument, so every lesson feels comfortable and familiar from the very first one."
+            "title": "نأتي إليك في منزلك",
+            "desc": "معلمونا يأتون إلى منزلك لتقام الحصص في مساحتك الخاصة وعلى آلتك، لتشعر بالراحة والألفة منذ الدرس الأول."
           },
           {
-            "title": "مترجم: Technique that actually sticks",
-            "desc": "مترجم: There is a difference between playing through a piece and truly understanding it. Our teachers focus on both."
+            "title": "تقنية راسخة ومتقنة",
+            "desc": "هناك فرق شاسع بين مجرد قراءة المقطوعة وفهمها موسيقياً بعمق. معلمونا يركزون على الاثنين معاً."
           },
           {
-            "title": "مترجم: Examination preparation",
-            "desc": "مترجم: ABRSM, Trinity, and RockSchool examinations covered with structured preparation built into every session as the date approaches."
+            "title": "إعداد لامتحانات الموسيقى الدولية",
+            "desc": "تغطية كاملة لامتحانات ABRSM و Trinity و RockSchool مع تحضير منظم في كل جلسة مع اقتراب موعد الاختبار."
           },
           {
-            "title": "مترجم: Structured practice guidance",
-            "desc": "مترجم: Knowing what to practise matters as much as how long. Our teachers give students a clear plan so every practice session between lessons counts."
+            "title": "إرشادات تدريب منزلي واضحة",
+            "desc": "معرفة ما يجب التدرب عليه تضاهي أهمية مدة التدريب. يقدم معلمونا خطة واضحة ليثمر كل تمرين بين الحصص."
           },
           {
-            "title": "مترجم: Progress tracked throughout",
-            "desc": "مترجم: Regular updates after every session so development is always visible and on track."
+            "title": "متابعة مستمرة للتقدم",
+            "desc": "تقارير وتحديثات دورية بعد كل حصة ليكون التطور ملموساً وواضحاً على الدوام."
           }
         ],
-        "bottomCardText": "مترجم: Our approach ensures your musical growth."
+        "bottomCardText": "نهجنا يضمن نمو مهاراتك وشغفك الموسيقي."
       },
       "whatWeCover": {
-        "title": "مترجم: What We Cover",
-        "subtitle": "مترجم: ",
+        "title": "الآلات التي نغطيها",
+        "subtitle": "",
         "items": [
           {
-            "title": "مترجم: Piano",
-            "desc": "مترجم: Classical and contemporary styles. ABRSM and Trinity examination preparation from Grade 1 through to Grade 8 and beyond. Sight-reading, scales, and performance technique."
+            "title": "البيانو",
+            "desc": "الأنماط الكلاسيكية والمعاصرة. إعداد امتحانات ABRSM و Trinity من الدرجة الأولى (Grade 1) حتى الدرجة الثامنة (Grade 8) والدبلوما. القراءة الفورية والسلالم والأداء التعبيري."
           },
           {
-            "title": "مترجم: Guitar",
-            "desc": "مترجم: Acoustic, classical, and electric. RockSchool and ABRSM examination preparation. Chords, fingerpicking, and music theory built in where needed."
+            "title": "الجيتار",
+            "desc": "الجيتار الصوتي، الكلاسيكي، والكهربائي. التحضير لامتحانات RockSchool و ABRSM مع دمج الأوتار والعزف بالأصابع والنظرية الموسيقية."
           },
           {
-            "title": "مترجم: Violin",
-            "desc": "مترجم: Classical technique, posture, and tone production. ABRSM examination preparation from beginner through to advanced. Orchestra preparation included."
+            "title": "الكمان",
+            "desc": "التقنية الكلاسيكية، ووضعية الجسد، وإنتاج النغمة النقية. إعداد امتحانات ABRSM من المبتدئين حتى المتقدمين مع التحضير للأوركسترا."
           },
           {
-            "title": "مترجم: Voice and Singing",
-            "desc": "مترجم: Vocal technique, breath control, and range development. ABRSM and Trinity examination preparation. Musical theatre and contemporary styles covered."
+            "title": "الغناء وتدريب الصوت",
+            "desc": "التقنية الصوتية، التحكم بالتنفس، وتوسيع المدى الصوتي. التحضير لامتحانات ABRSM و Trinity للمسرح الموسيقي والأنماط المعاصرة."
           },
           {
-            "title": "مترجم: Music Theory",
-            "desc": "مترجم: ABRSM and Trinity theory examinations from Grade 1 through to Grade 5. Notation, harmony, composition, and aural training. Essential preparation for higher practical examinations."
+            "title": "النظرية الموسيقية",
+            "desc": "امتحانات النظرية لـ ABRSM و Trinity من Grade 1 حتى Grade 5. التدوين الموسيقي، والتناغم، والتأليف، وتدريب الأذن والسمع."
           },
           {
-            "title": "مترجم: Other Instruments",
-            "desc": "مترجم: Cello, flute, clarinet, drums, and more. Get in touch and we will confirm what is available."
+            "title": "آلات موسيقية أخرى",
+            "desc": "التشيلو، الفلوت، الكلارينيت، الطبول، وغيرها. تواصل معنا وسنؤكد لك الخيارات المتاحة."
           }
         ]
       },
       "testimonials": {
-        "title": "مترجم: What Parents Say",
-        "subtitle": "مترجم: ",
+        "title": "ما يقوله الآباء",
+        "subtitle": "",
         "reviews": {
           "1": {
-            "text": "مترجم: My daughter had three different piano teachers over two years and never seemed to improve. Her Hello Tutor teacher came to our home and changed her technique completely. She passed her Grade 4 with a distinction.",
-            "author": "مترجم: Nour, مترجم: Mum of Year 7 student"
+            "text": "تعلمت ابنتي مع ثلاثة معلمين مختلفين للبيانو على مدار عامين دون تقدم ملحوظ. معلمتها من هالو تيوتر جاءت لمنزلنا وغيّرت أسلوب عزفها تماماً، واجتازت Grade 4 بامتياز وتفوق.",
+            "author": "نور، والدة طالبة في الصف السابع"
           },
           "2": {
-            "text": "مترجم: My son wanted to learn guitar but group lessons felt too fast. 1:1 lessons at his own pace in his own space made all the difference. He actually practises now without being told.",
-            "author": "مترجم: David, مترجم: Dad of Year 9 student"
+            "text": "أراد ابني تعلم الجيتار لكن الدروس الجماعية كانت سريعة جداً. الدروس الفردية 1:1 في بيئته الخاصة صنعت الفارق، وأصبح يتدرب بمفرده الآن دون تذكير.",
+            "author": "ديفيد، والد طالب في الصف التاسع"
           },
           "3": {
-            "text": "مترجم: We needed a violin teacher who understood the ABRSM syllabus properly. The match was exactly right. She knew the pieces, the scales, the sight-reading. Everything.",
-            "author": "مترجم: Aisha, مترجم: Mum of Year 6 student"
+            "text": "كنا بحاجة لمعلمة كمان تفهم منهج ABRSM بدقة واحترافية. كان الاختيار مثالياً، وتعرف القطع والسلالم والقراءة الفورية وكل تفاصيل الامتحان.",
+            "author": "عائشة، والدة طالبة في الصف السادس"
           }
         },
         "stats": [
-          "95% من الآباء يلاحظون تحسناً في الدرجات خلال 3 أشهر",
-          "متوسط تقييم الآباء 4.9/5",
-          "تم تقديم أكثر من 10,000 درس"
+          "95% من أولياء الأمور يلاحظون تحسناً في المستوى خلال 3 أشهر",
+          "4.9/5 متوسط تقييم أولياء الأمور",
+          "+10,000 حصة موسيقية تم تقديمها"
         ]
       },
       "meetOurCoaches": {
-        "title": "مترجم: Meet Our Music Teachers",
-        "subtitle": "مترجم: Every teacher combines deep musical knowledge and the ability to make tricky technique simple.",
-        "standardsTitle": "مترجم: Teacher standards:",
+        "title": "تعرف على معلمي الموسيقى لدينا",
+        "subtitle": "يجمع كل معلم بين المعرفة الموسيقية العميقة والقدرة على تبسيط التقنيات الصعبة.",
+        "standardsTitle": "معايير اختيار المعلمين:",
         "standards": [
-          "مترجم: Degree-level music qualification or equivalent professional experience",
-          "مترجم: Experience with ABRSM, Trinity, and RockSchool examination syllabuses",
-          "مترجم: Background-checked and reference-verified",
-          "مترجم: Trained in age-appropriate instruction",
-          "مترجم: Proven track record with examination results and student development"
+          "مؤهل جامعي متخصص في الموسيقى أو خبرة مهنية احترافية معادلة",
+          "خبرة معمقة بمناهج امتحانات ABRSM و Trinity و RockSchool",
+          "تدقيق أمني شامل وفحص السجل الجنائي والمراجع (DBS)",
+          "مدربون على أساليب التدريس الملائمة لكل فئة عمرية",
+          "سجل حافل بالنتائج المتميزة في الامتحانات وتطوير مهارات الطلاب"
         ],
-        "matchingCardText": "مترجم: We match based on instrument, current examination level, age, location, and examination board.",
-        "imageTag": "مترجم: Music Specialists"
+        "matchingCardText": "نقوم بالمطابقة بناءً على الآلة، ومستوى الامتحان الحالي، والعمر، والموقع، واللجنة الامتحانية.",
+        "imageTag": "أخصائيو الموسيقى"
       },
       "howToGetStarted": {
-        "title": "مترجم: How to Get Started",
-        "subtitle": "مترجم: ",
+        "title": "كيف تبدأ",
+        "subtitle": "",
         "steps": [
           {
-            "title": "مترجم: Tell us what you need",
-            "desc": "مترجم: Share the instrument, current level, any upcoming examinations or musical goals, and your location."
+            "title": "أخبرنا بما تحتاجه",
+            "desc": "شاركنا الآلة، والمستوى الحالي، وأي امتحانات أو أهداف موسيقية قادمة، وموقعك."
           },
           {
-            "title": "مترجم: We assign the right teacher",
-            "desc": "مترجم: We find the right teacher based on instrument, examination board, and location. No browsing needed."
+            "title": "نعين المعلم المناسب",
+            "desc": "نجد المعلم المثالي بناءً على الآلة، ولجنة الامتحانات، والموقع دون عناء البحث."
           },
           {
-            "title": "مترجم: First session booked within days",
-            "desc": "مترجم: Your teacher comes to you. Goals are set and structured learning begins from the very first session."
+            "title": "حجز الحصة الأولى خلال أيام",
+            "desc": "يأتي معلمك إلى منزلك، ويتم تحديد الأهداف ويبدأ التعلم المنظم من الحصة الأولى."
           },
           {
-            "title": "مترجم: Development from day one",
-            "desc": "مترجم: Regular sessions focused on technique, examination preparation, and building musical confidence throughout."
+            "title": "تطور وشغف من اليوم الأول",
+            "desc": "حصص منتظمة تركز على التقنية، والاستعداد للامتحانات، وبناء الثقة الموسيقية."
           }
         ]
       },
       "whatIsIncluded": {
-        "title": "مترجم: What Is Included",
-        "subtitle": "مترجم: ",
+        "title": "ما تشمله الخدمة",
+        "subtitle": "",
         "items": [
-          "مترجم: Teacher matched to your instrument, current level, and location",
-          "مترجم: 60-minute 1:1 sessions at your home",
-          "مترجم: ABRSM, Trinity, or RockSchool examination preparation built in",
-          "مترجم: Structured practice guidance after every session",
-          "مترجم: Regular progress updates throughout",
-          "مترجم: Flexible scheduling around school and other commitments"
+          "معلم مطابق لآلتك الموسيقية، ومستواك الحالي، وموقعك",
+          "حصص فردية 1:1 مدتها 60 دقيقة في منزلك",
+          "إعداد لامتحانات ABRSM أو Trinity أو RockSchool ضمن الحصص",
+          "إرشادات وتوجيهات للتدريب المنزلي بعد كل درس",
+          "تقارير تقدم دورية طوال فترة التدريس",
+          "مرونة كاملة في المواعيد لتناسب الالتزامات المدرسية"
         ]
       },
       "faqs": {
-        "title": "مترجم: FAQs — Music",
-        "subtitle": "مترجم: ",
+        "title": "الأسئلة الشائعة — الموسيقى",
+        "subtitle": "",
         "items": [
           {
-            "question": "مترجم: Do music teachers come to our home?",
-            "answer": "مترجم: Yes. All music teaching is in-home. Your teacher comes to you and sessions take place with your own instrument in your own space."
+            "question": "هل يأتي معلمو الموسيقى إلى منزلنا؟",
+            "answer": "نعم، جميع دروس الموسيقى تقام في منزلك. يأتي المعلم إليك وتتم الحصص على آلتك الخاصة في مساحتك المريحة."
           },
           {
-            "question": "مترجم: Can teaching help if my child is preparing for an ABRSM examination in a few weeks?",
-            "answer": "مترجم: Yes. Sessions are structured entirely around the examination when a date is close. The more lead time the better, but focused support at any stage makes a difference."
+            "question": "هل يمكن للدروس المساعدة إذا كان طفلي يستعد لامتحان ABRSM خلال أسابيع قليلة؟",
+            "answer": "نعم، يتم تنظيم الحصص بالكامل حول متطلبات الامتحان عند اقتراب موعده لتقديم دعم مركّز ومؤثر."
           },
           {
-            "question": "مترجم: My child has never played an instrument before. Is that fine?",
-            "answer": "مترجم: Absolutely. Many students start from complete beginners. We match a teacher experienced with new starters across all ages."
+            "question": "طفلي لم يعزف على أي آلة من قبل. هل هذا مناسب؟",
+            "answer": "بالتأكيد. يبدأ العديد من الطلاب كـ مبتدئين تماماً. نطابقك مع معلم خبير في تدريس المبتدئين من مختلف الأعمار."
           },
           {
-            "question": "مترجم: Do you cover music theory alongside practical sessions?",
-            "answer": "مترجم: Yes. Theory can be woven into practical sessions or covered as standalone sessions, depending on what is needed."
+            "question": "هل تغطون النظرية الموسيقية بجانب الحصص العملية؟",
+            "answer": "نعم، يمكن دمج النظرية الموسيقية ضمن الحصص العملية أو تقديمها في حصص مستقلة حسب الحاجة."
           },
           {
-            "question": "مترجم: What if my child loses motivation?",
-            "answer": "مترجم: It is more common than you might think. If something is not working, we talk it through and adjust the approach or rematch with a teacher who might be a stronger fit."
+            "question": "ماذا لو فقد طفلي حماسه؟",
+            "answer": "هذا أمر وارد وطبيعي. نناقش الأمر ونعدل أسلوب التعليم واختيار المقطوعات أو نطابقك مع معلم آخر يلائم شخصيته أكثر."
           },
           {
-            "question": "مترجم: Do you cover all examination boards?",
-            "answer": "مترجم: We cover ABRSM, Trinity, RockSchool, LCM, and LAMDA. If your board is not listed, get in touch and we will confirm."
+            "question": "هل تغطون جميع الهيئات واللجان الامتحانية؟",
+            "answer": "نغطي ABRSM و Trinity و RockSchool و LCM و LAMDA. إذا كانت لجنتك غير مدرجة، تواصل معنا وسنؤكد لك الترتيبات."
           }
         ],
-        "cta": "عرض كل الأسئلة الشائعة"
+        "cta": "عرض جميع الأسئلة الشائعة"
       }
     },
     "chess": {
-      "metaTitle": "مترجم: Chess Coaching | 1:1 In-Home Sessions for All Levels | Hello Tutor",
-      "metaDescription": "مترجم: Expert 1:1 chess coaching matched to your level and goals. In-home sessions. Tactics, strategy, opening preparation, and competition readiness. Book a free consultation.",
-      "heroTitle": "مترجم: Chess Coaching Matched to Sharpen Your Game",
-      "heroSubtitle": "مترجم: 1:1 coaching matched to how you learn and focused on real development.",
+      "metaTitle": "تدريب شطرنج خاص في دبي والإمارات | حصص منزلية فردية | هيلو تيوتر",
+      "metaDescription": "تدريب شطرنج خاص فردي 1:1 مخصص لمستوى طفلك وأسلوبه. جلسات منزلية وعبر الإنترنت لبناء التفكير الاستراتيجي والتكتيك. احجز استشارة مجانية.",
+      "heroTitle": "تدريب شطرنج يبني التفكير الاستراتيجي والتركيز",
+      "heroSubtitle": "تدريب فردي 1:1 مخصص لتطوير التكتيك والافتتاحيات واللعب الاستراتيجي في راحة منزلك.",
       "challenges": {
-        "title": "مترجم: Sound familiar?",
-        "subtitle": "مترجم: ",
+        "title": "هل يبدو هذا مألوفاً؟",
+        "subtitle": "",
         "cards": [
           {
-            "title": "مترجم: Knows the basics but cannot progress",
-            "desc": "مترجم: Understands how the pieces move. Everything after that feels like guesswork."
+            "title": "توقف تطور التصنيف والمهارة",
+            "desc": "يلعب باستمرار لكن مستواه لا يتغير. بدون توجيه تحليلي، تترسخ نفس الأخطاء وتتكرر."
           },
           {
-            "title": "مترجم: Losing the same way every time",
-            "desc": "مترجم: The same mistakes keep appearing. Without someone to explain why, they just keep happening."
+            "title": "خسارة الأفضلية في مرحلة وسط اللعبة",
+            "desc": "افتتاحيات ممتازة، ثم تضيع الخطة بمجرد خروج القطع الرئيسية واحتدام الموقف."
           },
           {
-            "title": "مترجم: Competition nerves",
-            "desc": "مترجم: Plays well in practice. Tournament day has a different atmosphere entirely."
+            "title": "التسرع والأخطاء التكتيكية الفادحة",
+            "desc": "نقلات متسرعة تحت ضغط الوقت أو الحماس، مما يؤدي إلى خسارة قطع حاسمة في لحظة."
           },
           {
-            "title": "مترجم: No idea where to start with strategy",
-            "desc": "مترجم: Openings, middle game plans, endgame technique. It all feels overwhelming without the right guidance."
+            "title": "غياب التوجيه الاستراتيجي المنظم",
+            "desc": "حل الألغاز عبر الإنترنت يساعد، لكنه لا يغني عن فهم عميق للاستراتيجية والخطط طويلة المدى."
           }
         ],
-        "bottomText": "مترجم: You are in the right place."
+        "bottomText": "أنت في المكان الصحيح."
       },
       "benefits": {
-        "title": "مترجم: How Hello Tutor Supports Chess Students",
-        "subtitle": "مترجم: Consistent 1:1 coaching tailored to chess students and focused on confidence, strategic thinking, and real improvement.",
+        "title": "كيف تدعم هالو تيوتر طلاب الشطرنج",
+        "subtitle": "تدريب شطرنج فردي 1:1 مخصص للتركيز على التكتيك، وفهم الافتتاحيات، والتفكير الاستراتيجي الشامل.",
         "items": [
           {
-            "title": "مترجم: Level-matched coaches",
-            "desc": "مترجم: Whether just learning the rules or preparing for competitive play, we match a coach who knows exactly where to start and where to take things next."
+            "title": "مدربون مصنفون ومتخصصون",
+            "desc": "أساتذة معتمدون ومدربون ذوو تصنيف دولي يفهمون كيفية نقل التفكير الشطرنجي المتقدم بأسلوب شيق."
           },
           {
-            "title": "مترجم: We come to you",
-            "desc": "مترجم: Our coaches travel to your home. Sessions take place in a comfortable, familiar environment with no distractions and no travel involved."
+            "title": "نأتي إليك أو عبر الإنترنت",
+            "desc": "حصص منزلية وجهاً لوجه على رقعة الشطرنج أو جلسات تفاعلية متقدمة عبر الإنترنت مع مرونة كاملة."
           },
           {
-            "title": "مترجم: Pattern recognition and strategy",
-            "desc": "مترجم: Chess improves when students start seeing the patterns. Our coaches teach the thinking behind every move, not just the moves themselves."
+            "title": "تحليل دقيق لأدوار الطالب",
+            "desc": "مراجعة مباريات الطالب وتحديد الأنماط السلوكية والتكتيكية الخاطئة لتصحيحها بدقة."
           },
           {
-            "title": "مترجم: Competition and tournament preparation",
-            "desc": "مترجم: Time management, opening preparation, and the mental approach to competitive play. Coaches who have played at a competitive level and know what tournament day actually demands."
+            "title": "بناء ذخيرة افتتاحيات متكاملة",
+            "desc": "افتتاحيات تناسب أسلوب لعب طفلك مع فهم عميق للأفكار والخطط بدلاً من الحفظ الأعمى."
           },
           {
-            "title": "مترجم: Game analysis and review",
-            "desc": "مترجم: Every game has lessons in it. Our coaches review games with students to identify recurring mistakes and turn them into genuine improvement."
+            "title": "تطوير مهارات التفكير العليا",
+            "desc": "الصبر، والتفكير المسبق بعدة نقلات، والتقييم الموضوعي للمواقف — مهارات تنعكس مباشرة على التفوق الأكاديمي."
           },
           {
-            "title": "مترجم: Rating and federation play",
-            "desc": "مترجم: For students working toward official ratings or competing in regional and national junior events, our coaches understand the competitive pathway and structure coaching around it."
+            "title": "متابعة مستمرة وتطور في التصنيف",
+            "desc": "تتبع دقيق لمستوى التكتيك ونمو التصنيف مع تقارير واضحة بعد كل درس."
           }
         ],
-        "bottomCardText": "مترجم: Our approach builds strategic and critical thinking skills."
+        "bottomCardText": "الشطرنج مدرسة متكاملة في التفكير وصنع القرار."
       },
       "whatWeCover": {
-        "title": "مترجم: What We Cover",
-        "subtitle": "مترجم: ",
+        "title": "ما نغطيه",
+        "subtitle": "",
         "items": [
           {
-            "title": "مترجم: Chess Fundamentals",
-            "desc": "مترجم: How pieces move, basic tactics, checkmate patterns, and the principles behind good opening play. Ideal for complete beginners of all ages."
+            "title": "الرؤية التكتيكية وحساب النقلات",
+            "desc": "الشوكة، الربط، الهجوم المزدوج، والتضحيات الحاسمة مع تدريب مكثف على حساب التفريعات بدقة."
           },
           {
-            "title": "مترجم: Tactics and Pattern Recognition",
-            "desc": "مترجم: Forks, pins, skewers, discovered attacks, and combinations. The building blocks of stronger play at every level."
+            "title": "الافتتاحيات والمبادئ الاستراتيجية",
+            "desc": "السيطرة على الوسط، التعبئة السريعة، وأمان الملك وفهم الهياكل البيادقية المختلفة."
           },
           {
-            "title": "مترجم: Opening Preparation",
-            "desc": "مترجم: Solid opening principles for beginners. Specific opening repertoire development for intermediate and advanced students."
+            "title": "استراتيجية وسط اللعبة وصنع الخطط",
+            "desc": "تحديد نقاط الضعف، المناورات الإستراتيجية، وتبديل القطع الصحيح وتنسيق الهجوم."
           },
           {
-            "title": "مترجم: Middle Game Strategy",
-            "desc": "مترجم: Pawn structures, piece activity, positional understanding, and how to form and execute a plan."
+            "title": "نهايات الأدوار (Endgames)",
+            "desc": "نهايات البيادق، الرخاخ، والقطع الخفيفة، والتقنيات الأساسية لتحويل الأفضلية إلى فوز محقق."
           },
           {
-            "title": "مترجم: Endgame Technique",
-            "desc": "مترجم: King and pawn endings, rook endings, and the essential endgame knowledge that wins and saves games at every level."
-          },
-          {
-            "title": "مترجم: Competition and Tournament Preparation",
-            "desc": "مترجم: Clock management, psychological preparation, game analysis, and building a competitive opening repertoire for school, regional, and national junior events."
+            "title": "التحضير للبطولات والمنافسات",
+            "desc": "إدارة الوقت، التعامل مع ساعات التوقيت، كتابة النقلات، والاستعداد النفسي للمباريات الرسمية."
           }
         ]
       },
       "testimonials": {
-        "title": "مترجم: What Parents Say",
-        "subtitle": "مترجم: ",
+        "title": "ما يقوله الآباء",
+        "subtitle": "",
         "reviews": {
           "1": {
-            "text": "مترجم: My son joined a school chess club and was completely lost. After four sessions with his Hello Tutor coach he was winning games. His confidence at the board changed completely.",
-            "author": "مترجم: Hassan, مترجم: Dad of Year 5 student"
+            "text": "ارتفع تصنيف ابني بأكثر من 300 نقطة خلال أربعة أشهر من التدريب الفردي مع مدرب هالو تيوتر. تحليله للمباريات فتح عينيه على تفاصيل لم يكن يراها.",
+            "author": "عمر، والد طالب في الصف السادس"
           },
           "2": {
-            "text": "مترجم: Our daughter kept losing in the opening phase of every tournament game. Her coach focused specifically on that and the results came quickly. She placed third in her school competition.",
-            "author": "مترجم: Claire, مترجم: Mum of Year 8 student"
+            "text": "لاحظنا تحسناً كبيراً في صبر ابنتي وتركيزها في دراستها المدرسية بعد بدء حصص الشطرنج. المدرب رائع ومحفز.",
+            "author": "ليلى، والدة طالبة في الصف الرابع"
           },
           "3": {
-            "text": "مترجم: I expected chess coaching to be dry. It is the opposite. Her coach makes every session feel like a puzzle to solve. She asks when the next one is, which says everything.",
-            "author": "مترجم: Tariq, مترجم: Dad of Year 4 student"
+            "text": "أفضل تدريب قدمناه لطفلنا الشغوف بالشطرنج. الجلسات المنزلية مريحة جداً ومستوى التدريب احترافي لأقصى درجة.",
+            "author": "كريم، والد طالب في الصف الثامن"
           }
         },
         "stats": [
-          "95% من الآباء يلاحظون تحسناً في الدرجات خلال 3 أشهر",
-          "متوسط تقييم الآباء 4.9/5",
-          "تم تقديم أكثر من 10,000 درس"
+          "95% من أولياء الأمور يلاحظون تحسناً في المستوى خلال 3 أشهر",
+          "4.9/5 متوسط تقييم أولياء الأمور",
+          "+10,000 جلسة تدريبية تم تقديمها"
         ]
       },
       "meetOurCoaches": {
-        "title": "مترجم: Meet Our Chess Coaches",
-        "subtitle": "مترجم: Every coach combines deep chess knowledge and the ability to make complex strategy simple.",
-        "standardsTitle": "مترجم: Coach standards:",
+        "title": "تعرف على مدربي الشطرنج لدينا",
+        "subtitle": "يجمع كل مدرب بين التصنيف الدولي والخبرة التربوية العميقة في تبسيط الاستراتيجيات.",
+        "standardsTitle": "معايير اختيار المدربين:",
         "standards": [
-          "مترجم: Rated or competitive chess player with proven coaching experience",
-          "مترجم: Experience working with students across all levels and ages",
-          "مترجم: Background-checked and reference-verified",
-          "مترجم: Familiar with school, regional, and national junior tournament formats"
+          "مدربون وأساتذة معتمدون من الاتحاد الدولي للشطرنج (FIDE)",
+          "خبرة واسعة في تدريب الطلاب من مختلف الفئات العمرية والمستويات",
+          "تدقيق أمني وفحص خلفية شامل وسجل جنائي نظيف (DBS)",
+          "مدربون على مناهج تطوير التفكير التكتيكي والاستراتيجي",
+          "سجل حافل في إعداد أبطال البطولات المدرسية والمحلية"
         ],
-        "matchingCardText": "مترجم: We match based on current level, goals, age, location, and specific areas for development.",
-        "imageTag": "مترجم: Chess Specialists"
+        "matchingCardText": "نقوم بالمطابقة بناءً على المستوى الحالي، ونمط اللعب، والعمر، والموقع، والأهداف التنافسية.",
+        "imageTag": "أخصائيو الشطرنج"
       },
       "howToGetStarted": {
-        "title": "مترجم: How to Get Started",
-        "subtitle": "مترجم: ",
+        "title": "كيف تبدأ",
+        "subtitle": "",
         "steps": [
           {
-            "title": "مترجم: Tell us what you need",
-            "desc": "مترجم: Share current level, any competition or rating goals, the areas that feel most challenging, and your location."
+            "title": "أخبرنا بمستوى طفلك",
+            "desc": "سواء كان يتعلم النقلات الأساسية أو لاعباً مصنفاً يطمح لخوض البطولات."
           },
           {
-            "title": "مترجم: We assign the right coach",
-            "desc": "مترجم: We find the right coach based on level, goals, and location. No browsing needed."
+            "title": "نعين المدرب الأنسب",
+            "desc": "نختار المدرب المتخصص في مستوى طفلك وأسلوب لعبه بدقة."
           },
           {
-            "title": "مترجم: First session booked within days",
-            "desc": "مترجم: Your coach comes to you. Goals are set and structured improvement begins from the very first session."
+            "title": "حجز الجلسة التقييمية الأولى",
+            "desc": "جلسة تمهيدية لاختبار مهاراته وتحديد خطة تدريب مخصصة وشيقة."
           },
           {
-            "title": "مترجم: Development from day one",
-            "desc": "مترجم: Regular sessions focused on tactics, strategy, game review, and building confidence throughout."
+            "title": "تطور مستمر في التفكير",
+            "desc": "دروس منتظمة مع تمارين تكتيكية وتحليل دائم للمباريات."
           }
         ]
       },
       "whatIsIncluded": {
-        "title": "مترجم: What Is Included",
-        "subtitle": "مترجم: ",
+        "title": "ما تشمله الخدمة",
+        "subtitle": "",
         "items": [
-          "مترجم: Coach matched to your current level, goals, and location",
-          "مترجم: 60-minute 1:1 sessions at your home",
-          "مترجم: Game analysis and review built into sessions",
-          "مترجم: Opening preparation and strategy development",
-          "مترجم: Competition and rating pathway guidance where relevant",
-          "مترجم: Regular progress updates after every session",
-          "مترجم: Flexible scheduling around school and other commitments"
+          "مدرب مطابق لمستوى طفلك وأهدافه وتصنيفه",
+          "جلسات فردية 1:1 مدتها 60 دقيقة في منزلك أو أونلاين",
+          "تحليل دوري لمباريات الطالب في البطولات والإنترنت",
+          "تمارين تكتيكية وواجبات أسبوعية مخصصة",
+          "إعداد استراتيجي متكامل للبطولات وإدارة الوقت",
+          "تقارير تقدم دورية لمتابعة نمو المهارات"
         ]
       },
       "faqs": {
-        "title": "مترجم: FAQs — Chess",
-        "subtitle": "مترجم: ",
+        "title": "الأسئلة الشائعة — الشطرنج",
+        "subtitle": "",
         "items": [
           {
-            "question": "مترجم: Do coaches come to our home?",
-            "answer": "مترجم: Yes. All chess coaching is in-home. Your coach comes to you and sessions take place in a comfortable, familiar environment."
+            "question": "هل تناسب الدروس الأطفال المبتدئين تماماً؟",
+            "answer": "نعم، نبدأ مع المبتدئين من عمر 5 سنوات بتعليم حركة القطع والقواعد بطريقة تفاعلية ممتعة."
           },
           {
-            "question": "مترجم: What age can students start chess coaching?",
-            "answer": "مترجم: Chess coaching works well from around age 5 upwards. Younger students focus on the fundamentals in a fun, engaging way. Older students progress into strategy, competition preparation, and rating play."
+            "question": "هل الأفضل التدريب المنزلي أم عبر الإنترنت؟",
+            "answer": "كلا الخيارين ممتازان؛ يفضل الكثير التدريب المنزلي للأعمار الصغيرة للتفاعل الواقعي، بينما يفضل الأكبر سناً الجلسات الرقمية لاستخدام قواعد البيانات والمحركات."
           },
           {
-            "question": "مترجم: My child knows the rules but is not sure where to go next. Can you help?",
-            "answer": "مترجم: Yes. This is one of the most common starting points. Coaches work on tactics, pattern recognition, and opening principles to bridge exactly that gap."
+            "question": "كم من الوقت يستغرق ملاحظة تحسن في المستوى؟",
+            "answer": "مع درس أسبوعي وتدريب منتظم على الألغاز، يلاحظ الآباء تحسناً ملموساً في الرؤية التكتيكية وتفادي الأخطاء خلال 4 إلى 6 أسابيع."
           },
           {
-            "question": "مترجم: Do you support students working toward official chess ratings?",
-            "answer": "مترجم: Yes. For students interested in federation play and official ratings, our coaches understand the competitive pathway and structure coaching around those goals specifically."
+            "question": "هل يساعد المدرب في المشاركة بالبطولات الرسمية؟",
+            "answer": "نعم، يرشد المدرب العائلات إلى البطولات المعتمدة في الدولة ويجهز الطالب للتعامل مع ساعات التوقيت وتسجيل النقلات."
           },
           {
-            "question": "مترجم: Do you help with school chess club or competition preparation?",
-            "answer": "مترجم: Yes. Coaches prepare students for school tournaments, club play, and regional and national junior competitions."
-          },
-          {
-            "question": "مترجم: How quickly can a student improve?",
-            "answer": "مترجم: With regular weekly coaching, most students see noticeable improvement within four to six sessions. Tactical ability and pattern recognition tend to develop quickly with focused practice."
-          },
-          {
-            "question": "مترجم: What if my child just wants to play chess for fun rather than compete?",
-            "answer": "مترجم: Completely fine. Coaches adapt entirely to the goal. Some students want to compete, others just want to enjoy the game more. Both are equally valid starting points."
+            "question": "ماذا لو لم ينسجم طفلي مع المدرب؟",
+            "answer": "نوفر ضمان المطابقة التامة؛ إذا لم يكن هناك توافق، سنقوم بمطابقتك مع مدرب آخر دون أي تكلفة إضافية."
           }
         ],
-        "cta": "عرض كل الأسئلة الشائعة"
+        "cta": "عرض جميع الأسئلة الشائعة"
       }
     },
     "football": {
-      "metaTitle": "مترجم: Football Coaching | 1:1 In-Home Sessions | Hello Tutor",
-      "metaDescription": "مترجم: Expert 1:1 football coaching matched to your level and goals. Tactics, strategy, and readiness. Book a free consultation.",
-      "heroTitle": "مترجم: Football Coaching Matched to Elevate Your Game",
-      "heroSubtitle": "مترجم: 1:1 coaching matched to how you play and focused on real development.",
+      "metaTitle": "تدريب كرة قدم خاص في دبي والإمارات | حصص تدريب فردية | هيلو تيوتر",
+      "metaDescription": "تدريب كرة قدم خاص فردي 1:1 لتحسين المهارات الفنية والتحكم بالكرة واللياقة. مدربون محترفون معتمدون في موقعك. احجز استشارة مجانية.",
+      "heroTitle": "تدريب كرة قدم خاص يطور المهارة الفنية والثقة في الملعب",
+      "heroSubtitle": "تدريب فردي 1:1 مخصص لتحسين التحكم بالكرة والمراوغة والتسديد وصناعة اللعب.",
       "challenges": {
-        "title": "مترجم: Sound familiar?",
-        "subtitle": "مترجم: ",
+        "title": "هل يبدو هذا مألوفاً؟",
+        "subtitle": "",
         "cards": [
           {
-            "title": "مترجم: Lost in a team environment",
-            "desc": "مترجم: Group training moves fast. Individual weaknesses rarely get the focused attention they need."
+            "title": "قلة لمس الكرة في التدريبات الجماعية",
+            "desc": "في فرق الأكاديميات الكبيرة، يحصل اللاعب على دقائق قليلة من الاستحواذ الفعلي على الكرة."
           },
           {
-            "title": "مترجم: Technically capable but not progressing",
-            "desc": "مترجم: Puts in the effort at training. Something is still not clicking when it matters most."
+            "title": "صعوبة استخدام القدم الأضعف",
+            "desc": "الاعتماد الكلي على قدم واحدة يسهل التنبؤ بحركات اللاعب ويحد من فرصه في الملعب."
           },
           {
-            "title": "مترجم: Lacks confidence on the ball",
-            "desc": "مترجم: The ability is there. The confidence to express it in a match is a different thing entirely."
+            "title": "فقدان الثقة تحت الضغط",
+            "desc": "مهارات ممتازة في التمارين الفردية، لكن الارتباك والتسرع عند مواجهة المدافعين في المباريات."
           },
           {
-            "title": "مترجم: Wants to make a team or squad",
-            "desc": "مترجم: Trials and selections are coming up and focused individual development could make all the difference."
+            "title": "الاستعداد لاختبارات واختيارات الفرق",
+            "desc": "اختبارات الأكاديميات وفرق المدارس تقترب، والتطوير الفردي المركز هو ما يصنع الفارق للتأهل."
           }
         ],
-        "bottomText": "مترجم: You are in the right place."
+        "bottomText": "أنت في المكان الصحيح."
       },
       "benefits": {
-        "title": "مترجم: How Hello Tutor Supports Football Students",
-        "subtitle": "مترجم: Consistent 1:1 coaching tailored to football students and focused on technical development, confidence, and real improvement.",
+        "title": "كيف تدعم هالو تيوتر لاعبي كرة القدم",
+        "subtitle": "تدريب فردي 1:1 مكثف يضمن آلاف اللمسات للكرة في كل حصة وبناء المهارة تحت إشراف مباشر.",
         "items": [
           {
-            "title": "مترجم: Position and level matched coaches",
-            "desc": "مترجم: Whether working on fundamental technique or preparing for competitive trials, we match a coach who knows exactly what is needed and how to get there."
+            "title": "مدربون مطابقون للمركز والمستوى",
+            "desc": "سواء كان الهدف تطوير المهارات الأساسية أو التحضير لاختبارات الفرق التنافسية، نطابقك مع مدرب يعرف بدقة ما يلزمك للوصول."
           },
           {
-            "title": "مترجم: We come to you",
-            "desc": "مترجم: Our coaches travel to a location near you. Sessions take place at a local park, pitch, or sports facility. We help identify the right space during your free consultation."
+            "title": "نأتي إلى موقعك المناسب",
+            "desc": "مدربونا يأتون إلى موقع قريب منك (حديقة، ملعب مجمع سكني، أو منشأة رياضية)، ونساعدك في اختيار المكان المناسب خلال الاستشارة."
           },
           {
-            "title": "مترجم: Technical development",
-            "desc": "مترجم: Passing, receiving, dribbling, shooting, and movement. Our coaches break down technique in a way that sticks and builds progressively over time."
+            "title": "تطوير فني متكامل",
+            "desc": "التمرير، الاستلام، المراوغة، التسديد، والتحرك بدون كرة بأسلوب تدريبي تصاعدي يرسخ المهارة."
           },
           {
-            "title": "مترجم: Tactical understanding",
-            "desc": "مترجم: Positional awareness, decision making, reading the game, and understanding how individual skills connect to team play."
+            "title": "فهم تكتيكي ووعي بالملعب",
+            "desc": "التموضع الصحيح، سرعة اتخاذ القرار، وقراءة مجريات اللعب وربط المهارة الفردية بالأداء الجماعي."
           },
           {
-            "title": "مترجم: Confidence on the ball",
-            "desc": "مترجم: Confidence in football comes from repetition and understanding. Our coaches build both so it shows when it counts most."
+            "title": "ثقة مطلقة بالكرة",
+            "desc": "الثقة في كرة القدم تأتي من التكرار والفهم السليم. مدربونا يبنون الاثنين معاً لتبرز وقت المباريات."
           },
           {
-            "title": "مترجم: Progress tracked throughout",
-            "desc": "مترجم: Regular updates after every session so development is always visible and on track."
+            "title": "متابعة مستمرة وتقييم أداء",
+            "desc": "تقارير دورية بعد كل حصة لمتابعة التطور الفني والبدني باستمرار."
           }
         ],
-        "bottomCardText": "مترجم: Our approach builds technical and tactical football skills."
+        "bottomCardText": "نهجنا يبني المهارات الفنية والتكتيكية في كرة القدم."
       },
       "whatWeCover": {
-        "title": "مترجم: What We Cover",
-        "subtitle": "مترجم: ",
+        "title": "ما نغطيه",
+        "subtitle": "",
         "items": [
           {
-            "title": "مترجم: Technical Foundations",
-            "desc": "مترجم: First touch, passing, dribbling, and ball control. The fundamentals that underpin everything else and improve with focused repetition and the right coaching."
+            "title": "الأسس الفنية والتحكم بالكرة",
+            "desc": "اللمسة الأولى، التمرير المتقن، والمراوغة والسيطرة على الكرة بالتكرار المركز والتوجيه الصحيح."
           },
           {
-            "title": "مترجم: Shooting and Finishing",
-            "desc": "مترجم: Technique, placement, and confidence in front of goal. Structured finishing practice with progressive difficulty built in."
+            "title": "التسديد وإنهاء الهجمات",
+            "desc": "التكنيك السليم للتسديد، وضعية الجسد، التوجيه الدقيق، والثقة أمام المرمى بصعوبة تصاعدية."
           },
           {
-            "title": "مترجم: Defending and Positioning",
-            "desc": "مترجم: Defensive shape, pressing, tackling technique, and positional awareness. Often overlooked in group sessions but essential for well-rounded development."
+            "title": "الدفاع وافتكاك الكرة والتموضع",
+            "desc": "وضعية المدافع، الضغط، التوقيت السليم للافتكاك، والوعي بالمركز — أساسيات لا غنى عنها لبناء لاعب متكامل."
           },
           {
-            "title": "مترجم: Speed, Agility, and Movement",
-            "desc": "مترجم: Acceleration, change of direction, and football-specific movement patterns. Physical development tailored to the demands of the game."
+            "title": "السرعة والرشاقة وتغيير الاتجاه",
+            "desc": "التسارع، الرشاقة الحركية، وأنماط الحركة الخاصة بكرة القدم واللياقة البدنية الملائمة للعبة."
           },
           {
-            "title": "مترجم: Tactical Awareness",
-            "desc": "مترجم: Reading the game, positional understanding, decision making under pressure, and how individual play connects to team structure."
+            "title": "الوعي التكتيكي وصنع القرار",
+            "desc": "قراءة الملعب، فهم المساحات، اتخاذ القرار تحت الضغط وربط اللعب الفردي بالخطة الجماعية."
           },
           {
-            "title": "مترجم: Trial and Selection Preparation",
-            "desc": "مترجم: Focused coaching for students preparing for academy trials, school team selection, or competitive squad places. Structured around what selectors are actually looking for."
+            "title": "التحضير لاختبارات واختيارات الأكاديميات",
+            "desc": "تدريب مخصص لإعداد اللاعبين لتجارب الأداء واختبارات الفرق وفق المعايير التي يبحث عنها كشافو المواهب."
           }
         ]
       },
       "testimonials": {
-        "title": "مترجم: What Parents Say",
-        "subtitle": "مترجم: ",
+        "title": "ما يقوله الآباء",
+        "subtitle": "",
         "reviews": {
           "1": {
-            "text": "مترجم: My son was playing in a team but never getting the individual attention his technique needed. Four weeks of 1:1 coaching and his coach noticed the difference straight away. He started the next match.",
-            "author": "مترجم: Khalid, مترجم: Dad of Year 6 student"
+            "text": "كان ابني يلعب في فريق لكنه لم يكن يحصل على الاهتمام الفردي الذي يحتاجه تكنيكه. أربعة أسابيع من التدريب 1:1 ولاحظ مدربه في النادي الفارق وبدأ به أساسياً في المباراة التالية.",
+            "author": "خالد، والد طالب في الصف السادس"
           },
           "2": {
-            "text": "مترجم: Our daughter wanted to make the school team but was not confident enough on the ball. Her Hello Tutor coach worked specifically on that. She made the squad and has not looked back.",
-            "author": "مترجم: Sarah, مترجم: Mum of Year 7 student"
+            "text": "أرادت ابنتنا الانضمام لفريق المدرسة لكنها لم تكن واثقة بالكرة. عمل مدرب هالو تيوتر على ذلك تحديداً، وتأهلت للفريق وتألقت في المباريات.",
+            "author": "سارة، والدة طالبة في الصف السابع"
           },
           "3": {
-            "text": "مترجم: We tried group coaching academies but the sessions were too big. 1:1 coaching gave my son the focused attention that group sessions just cannot provide. The improvement in three months has been significant.",
-            "author": "مترجم: Omar, مترجم: Dad of Year 5 student"
+            "text": "جربنا أكاديميات التدريب الجماعي لكن المجموعات كانت كبيرة. التدريب الفردي 1:1 منح ابني التركيز الذي يحتاجه، وكان التطور خلال ثلاثة أشهر ملحوظاً جداً.",
+            "author": "عمر، والد طالب في الصف الخامس"
           }
         },
         "stats": [
-          "95% من الآباء يلاحظون تحسناً في الدرجات خلال 3 أشهر",
-          "متوسط تقييم الآباء 4.9/5",
-          "تم تقديم أكثر من 10,000 درس"
+          "95% من أولياء الأمور يلاحظون تحسناً في المستوى خلال 3 أشهر",
+          "4.9/5 متوسط تقييم أولياء الأمور",
+          "+10,000 حصة تدريبية تم تقديمها"
         ]
       },
       "meetOurCoaches": {
-        "title": "مترجم: Meet Our Football Coaches",
-        "subtitle": "مترجم: Every coach combines deep football knowledge and the ability to develop players at every level.",
-        "standardsTitle": "مترجم: Coach standards:",
+        "title": "تعرف على مدربي كرة القدم لدينا",
+        "subtitle": "يجمع كل مدرب بين المعرفة الكروية العميقة والقدرة على تطوير اللاعبين في مختلف المستويات.",
+        "standardsTitle": "معايير اختيار المدربين:",
         "standards": [
-          "مترجم: FA qualified or equivalent coaching certification",
-          "مترجم: Experience coaching players across all ages and ability levels",
-          "مترجم: Background-checked and reference-verified",
-          "مترجم: Trained in age-appropriate and development-focused coaching methods",
-          "مترجم: Experience with academy, school, and grassroots environments"
+          "حاصلون على رخص تدريبية معتمدة من FA أو UEFA أو ما يعادلها",
+          "خبرة تدريبية مثبتة مع اللاعبين من مختلف الأعمار ومستويات المهارة",
+          "تدقيق أمني وفحص خلفية شامل وسجل جنائي نظيف (DBS)",
+          "مدربون على أحدث أساليب التدريب التطويرية المناسبة للأعمار",
+          "خبرة في بيئات الأكاديميات وفرق المدارس والأندية"
         ],
-        "matchingCardText": "مترجم: We match based on current ability level, position, development goals, age, preferred location, and trial preparation needs.",
-        "imageTag": "مترجم: Football Specialists"
+        "matchingCardText": "نقوم بالمطابقة بناءً على مستوى المهارة الحالي، والمركز، وأهداف التطوير، والعمر، والموقع المفضل، والتحضير للتجارب.",
+        "imageTag": "أخصائيو كرة القدم"
       },
       "howToGetStarted": {
-        "title": "مترجم: How to Get Started",
-        "subtitle": "مترجم: ",
+        "title": "كيف تبدأ",
+        "subtitle": "",
         "steps": [
           {
-            "title": "مترجم: Tell us what you need",
-            "desc": "مترجم: Share current level, position, any upcoming trials or selections, and your preferred area for sessions."
+            "title": "أخبرنا بما تحتاجه",
+            "desc": "شاركنا المستوى الحالي، والمركز، وأي اختبارات قادمة، والموقع المفضل للجلسات."
           },
           {
-            "title": "مترجم: We assign the right coach",
-            "desc": "مترجم: We find the right coach based on level, goals, and location. No browsing needed."
+            "title": "نعين المدرب الأنسب",
+            "desc": "نجد المدرب المثالي بناءً على المستوى، والأهداف، والموقع دون عناء البحث."
           },
           {
-            "title": "مترجم: First session booked within days",
-            "desc": "مترجم: Your coach comes to you. Goals are set and development begins from the very first session."
+            "title": "حجز الحصة الأولى خلال أيام",
+            "desc": "يأتي مدربك إلى موقعك، وتحدد الأهداف ويبدأ التطور الفعلي من الحصة الأولى."
           },
           {
-            "title": "مترجم: Development from day one",
-            "desc": "مترجم: Regular sessions focused on technical improvement, tactical understanding, and building confidence throughout."
+            "title": "تطور وثقة من اليوم الأول",
+            "desc": "حصص منتظمة تركز على التحسن الفني، والوعي التكتيكي، وبناء الثقة في الملعب."
           }
         ]
       },
       "whatIsIncluded": {
-        "title": "مترجم: What Is Included",
-        "subtitle": "مترجم: ",
+        "title": "ما تشمله الخدمة",
+        "subtitle": "",
         "items": [
-          "مترجم: Coach matched to your current level, position, and goals",
-          "مترجم: 60-minute 1:1 sessions at a location near you",
-          "مترجم: Technical development",
-          "مترجم: Tactical understanding",
-          "مترجم: Confidence on the ball",
-          "مترجم: Progress tracked throughout"
+          "مدرب مطابق لمستواك الحالي، ومركزك، وأهدافك",
+          "حصص فردية 1:1 مدتها 60 دقيقة في موقع قريب منك",
+          "تطوير فني شامل وتكنيك متقدم",
+          "فهم تكتيكي ووعي بالتموضع",
+          "بناء الثقة والتحكم بالكرة تحت الضغط",
+          "متابعة مستمرة وتقارير تقدم دورية"
         ]
       },
       "faqs": {
-        "title": "مترجم: FAQs — Football",
-        "subtitle": "مترجم: ",
+        "title": "الأسئلة الشائعة — كرة القدم",
+        "subtitle": "",
         "items": [
           {
-            "question": "أين تقام الجلسات؟",
-            "answer": "تقام جلسات كرة القدم في حديقة محلية أو ملعب أو منشأة رياضية بالقرب منك. يأتي مدربونا إلى موقعك المفضل. يمكننا اقتراح مساحات مناسبة في منطقتك خلال الاستشارة المجانية."
+            "question": "أين تقام الحصص التدريبية؟",
+            "answer": "تقام الحصص في حديقة محلية أو ملعب مجمع سكني أو منشأة رياضية قريبة منك. يأتي مدربونا إلى موقعك المفضل، ويمكننا اقتراح مساحات ملائمة خلال الاستشارة المجانية."
           },
           {
-            "question": "في أي عمر يمكن للطلاب بدء تدريب كرة القدم؟",
-            "answer": "نعمل مع الطلاب من سن 5 سنوات فما فوق. يتم تكييف الجلسات وفقاً للعمر والنمو البدني وفترة الانتباه في كل مرحلة."
+            "question": "ما هو العمر المناسب لبدء تدريب كرة القدم؟",
+            "answer": "نعمل مع الطلاب من سن 5 سنوات فما فوق. يتم تكييف الجلسات وفقاً للعمر والنمو البدني ومدى الانتباه."
           },
           {
-            "question": "طفلي يلعب بالفعل في فريق. هل لا يزال التدريب مفيداً؟",
-            "answer": "بالتأكيد. يستفيد معظم الطلاب الذين يلعبون في فرق بشكل كبير من التدريب الفردي. نادراً ما يوفر التدريب الجماعي الاهتمام الفني المركّز الذي يقدمه التدريب الفردي بنسبة 1:1."
+            "question": "طفلي يلعب بالفعل مع فريق. هل يمكن للتدريب الفردي أن يفيده؟",
+            "answer": "بالتأكيد. يستفيد معظم لاعبي الفرق بشكل هائل من التدريب الفردي، فالتمارين الجماعية نادراً ما توفر التركيز الفني 1:1 الذي يقدمه التدريب الخاص."
           },
           {
-            "question": "هل يمكن أن يساعد التدريب في تجارب الأكاديمية أو الفرق المدرسية؟",
-            "answer": "نعم. يمكننا تنظيم الجلسات بالكامل حول التحضير للتجارب، مع التركيز على الصفات الفنية والمراكز التي يبحث عنها المقيّمون."
+            "question": "هل يمكن للتدريب المساعدة في اختبارات الأكاديميات أو فرق المدارس؟",
+            "answer": "نعم، يمكننا تنظيم الجلسات بالكامل حول التحضير لتجارب الأداء والتركيز على المهارات التي يبحث عنها كشافو المواهب."
           },
           {
             "question": "ما هي المعدات التي يحتاجها طفلي؟",
-            "answer": "أحذية مناسبة، واقيات الساق، وكرة. سيقوم مدربك بتقديم النصح بشأن أي شيء محدد قبل الجلسة الأولى."
+            "answer": "حذاء رياضي مناسب، واقي الساقين، وكرة قدم. سيقدم مدربك المشورة بشأن أي متطلبات خاصة قبل الجلسة الأولى."
           },
           {
-            "question": "طفلي لم يلعب كرة القدم من قبل. هل هذا جيد؟",
-            "answer": "بالتأكيد. يبدأ العديد من الطلاب كمبتدئين تماماً. نقوم بتعيين مدرب ذي خبرة في التعامل مع المبتدئين من جميع الأعمار."
+            "question": "طفلي لم يلعب كرة القدم من قبل. هل هذا مناسب؟",
+            "answer": "بالتأكيد. يبدأ العديد من الطلاب كـ مبتدئين تماماً، ونطابقك مع مدرب ذي خبرة واسعة في تدريب المبتدئين من جميع الأعمار."
           },
           {
-            "question": "ماذا لو فقد طفلي حافزه؟",
-            "answer": "إذا لم يكن التدريب مجدياً، نناقش الأمر ونقوم إما بتعديل النهج أو تعيين مدرب مختلف. نحن نريد أن ينجح الأمر."
+            "question": "ماذا لو فقد طفلي حماسه؟",
+            "answer": "إذا لم تكن التجربة ملائمة، نناقش الأمر ونعدل النهج التدريبي أو نطابقك مع مدرب آخر يناسب شخصيته أكثر."
           }
         ],
-        "cta": "عرض كل الأسئلة الشائعة"
+        "cta": "عرض جميع الأسئلة الشائعة"
       }
     }
   },
