@@ -1,7 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { createMetadata } from '@/lib/metadata';
-import { JsonLd } from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 import { Hero } from '@/components/pricing/Hero';
 import { PricingSection } from '@/components/pricing/PricingSection';
@@ -31,7 +30,6 @@ export default async function PricingPage({ params }: { params: Promise<{ locale
 
   return (
     <>
-      <JsonLd />
       <Hero />
       <PricingSection />
       <PricingFeaturesGrid />

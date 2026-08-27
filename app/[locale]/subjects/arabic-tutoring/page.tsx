@@ -38,7 +38,15 @@ export default async function ArabicTutoringPage({
 
   return (
     <>
-      <JsonLd />
+      <JsonLd
+        data={{
+          '@type': 'Service',
+          serviceType: 'Arabic Tutoring',
+          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+          audience: { '@type': 'Audience', audienceType: 'Students and Parents' },
+        }}
+      />
       <BaseHero
         title={t('subjectPages.arabicTutoring.heroTitle')}
         subtitle={t('subjectPages.arabicTutoring.heroSubtitle')}

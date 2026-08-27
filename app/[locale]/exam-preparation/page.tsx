@@ -37,7 +37,15 @@ export default async function ExamPreparationPage({
 
   return (
     <>
-      <JsonLd />
+      <JsonLd
+        data={{
+          '@type': 'Service',
+          serviceType: 'Exam Preparation Tutoring',
+          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+          audience: { '@type': 'Audience', audienceType: 'Students and Parents' },
+        }}
+      />
       <BaseHero
         title={t('subjectPages.examPreparation.heroTitle')}
         subtitle={t('subjectPages.examPreparation.heroSubtitle')}

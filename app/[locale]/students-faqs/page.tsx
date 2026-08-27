@@ -2,7 +2,6 @@ import { setRequestLocale } from 'next-intl/server';
 import { createMetadata } from '@/lib/metadata';
 import { Container } from '@/components/layout/Container';
 import { Section } from '@/components/layout/Section';
-import { JsonLd } from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -29,16 +28,13 @@ export default async function StudentsFaqsPage({
   setRequestLocale(locale);
 
   return (
-    <>
-      <JsonLd />
-      <Section className="bg-gradient-to-b from-surface-alt to-surface">
-        <Container className="py-20 text-center">
-          <h1 className="text-h2 text-content mb-6">Students Faqs</h1>
-          <p className="text-body-xl text-content-tertiary max-w-2xl mx-auto">
-            This page is currently under construction. Content strategy pending.
-          </p>
-        </Container>
-      </Section>
-    </>
+    <Section className="bg-gradient-to-b from-surface-alt to-surface">
+      <Container className="py-20 text-center">
+        <h1 className="text-h2 text-content mb-6">Students Faqs</h1>
+        <p className="text-body-xl text-content-tertiary max-w-2xl mx-auto">
+          This page is currently under construction. Content strategy pending.
+        </p>
+      </Container>
+    </Section>
   );
 }

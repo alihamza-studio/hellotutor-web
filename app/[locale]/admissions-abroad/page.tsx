@@ -30,7 +30,15 @@ export default async function AdmissionsAbroadPage({
 
   return (
     <>
-      <JsonLd />
+      <JsonLd
+        data={{
+          '@type': 'Service',
+          serviceType: 'Admissions Abroad Tutoring',
+          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+          audience: { '@type': 'Audience', audienceType: 'Students and Parents' },
+        }}
+      />
       <div className="pt-32 pb-20 min-h-[60vh]">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold mb-6">{t('admissionsAbroad')}</h1>

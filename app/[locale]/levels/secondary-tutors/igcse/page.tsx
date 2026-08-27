@@ -33,7 +33,15 @@ export default async function IgcseTutorsPage({ params }: { params: Promise<{ lo
 
   return (
     <>
-      <JsonLd />
+      <JsonLd
+        data={{
+          '@type': 'Service',
+          serviceType: 'IGCSE Tutoring',
+          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+          audience: { '@type': 'Audience', audienceType: 'Students and Parents' },
+        }}
+      />
       <BaseHero
         title={t('levelPages.igcseTutors.heroTitle')}
         subtitle={t('levelPages.igcseTutors.heroSubtitle')}

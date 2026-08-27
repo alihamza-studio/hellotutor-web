@@ -1,7 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { createMetadata } from '@/lib/metadata';
-import { JsonLd } from '@/components/seo/JsonLd';
 import { PrivacyPolicyContent } from '@/components/privacy-policy/PrivacyPolicyContent';
 import type { Metadata } from 'next';
 
@@ -28,10 +27,5 @@ export default async function PrivacyPolicyPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  return (
-    <>
-      <JsonLd />
-      <PrivacyPolicyContent />
-    </>
-  );
+  return <PrivacyPolicyContent />;
 }

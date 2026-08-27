@@ -38,7 +38,15 @@ export default async function PhysicsTutoringPage({
 
   return (
     <>
-      <JsonLd />
+      <JsonLd
+        data={{
+          '@type': 'Service',
+          serviceType: 'Physics Tutoring',
+          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+          audience: { '@type': 'Audience', audienceType: 'Students and Parents' },
+        }}
+      />
       <BaseHero
         title={t('subjectPages.physicsTutoring.heroTitle')}
         subtitle={t('subjectPages.physicsTutoring.heroSubtitle')}

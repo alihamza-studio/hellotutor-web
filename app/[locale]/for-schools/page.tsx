@@ -35,7 +35,15 @@ export default async function ForSchoolsPage({ params }: { params: Promise<{ loc
 
   return (
     <>
-      <JsonLd />
+      <JsonLd
+        data={{
+          '@type': 'Service',
+          serviceType: 'School Tutoring and Academic Partnerships',
+          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+          audience: { '@type': 'Audience', audienceType: 'Schools and Educational Institutions' },
+        }}
+      />
       <Hero />
       <Challenges />
       <TargetAudience />

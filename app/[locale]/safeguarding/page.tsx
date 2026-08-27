@@ -1,7 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { createMetadata } from '@/lib/metadata';
-import { JsonLd } from '@/components/seo/JsonLd';
 import { SafeguardingContent } from '@/components/safeguarding/SafeguardingContent';
 import type { Metadata } from 'next';
 
@@ -28,10 +27,5 @@ export default async function SafeguardingPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  return (
-    <>
-      <JsonLd />
-      <SafeguardingContent />
-    </>
-  );
+  return <SafeguardingContent />;
 }

@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { TutorsInAbuDhabiContent } from './TutorsInAbuDhabiContent';
 import { createMetadata } from '@/lib/metadata';
+import { JsonLd } from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({
@@ -28,5 +29,23 @@ export default async function TutorsInAbuDhabiPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  return <TutorsInAbuDhabiContent />;
+  return (
+    <>
+      <JsonLd
+        data={{
+          '@type': ['LocalBusiness', 'EducationalOrganization'],
+          name: 'HelloTutor - Abu Dhabi Tutoring',
+          url: `https://www.hellotutor.me/${locale}/tutors-in-abu-dhabi`,
+          parentOrganization: {
+            '@type': 'Organization',
+            name: 'HelloTutor',
+            url: 'https://www.hellotutor.me',
+          },
+          areaServed: { '@type': 'City', name: 'Abu Dhabi' },
+          availableLanguage: ['English', 'Arabic'],
+        }}
+      />
+      <TutorsInAbuDhabiContent />
+    </>
+  );
 }

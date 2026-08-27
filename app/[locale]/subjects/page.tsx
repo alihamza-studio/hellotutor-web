@@ -31,7 +31,15 @@ export default async function SubjectsPage({ params }: { params: Promise<{ local
 
   return (
     <>
-      <JsonLd />
+      <JsonLd
+        data={{
+          '@type': 'Service',
+          serviceType: 'Tutoring Services',
+          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+          audience: { '@type': 'Audience', audienceType: 'Students and Parents' },
+        }}
+      />
       <BaseHero
         title={t('subjectPages.allSubjects.heroTitle')}
         subtitle={t('subjectPages.allSubjects.heroSubtitle')}

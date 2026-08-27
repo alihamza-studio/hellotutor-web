@@ -35,6 +35,7 @@ import { CookieConsentProvider } from '@/components/providers/CookieConsentProvi
 import { CookieBanner } from '@/components/ui/CookieBanner';
 import { CookieSettingsModal } from '@/components/ui/CookieSettingsModal';
 import { FloatingCTA } from '@/components/ui/FloatingCTA';
+import { JsonLd } from '@/components/seo/JsonLd';
 import { createMetadata } from '@/lib/metadata';
 import type { Viewport } from 'next';
 import '@/styles/globals.css';
@@ -95,6 +96,7 @@ export default async function LocaleLayout({
   return (
     <html lang={htmlLang} dir={dir} suppressHydrationWarning className={`${notoSansArabic.variable} ${interTight.variable} ${awesomeSerif.variable}`}>
       <head>
+        <JsonLd />
         <link rel="preconnect" href="https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev" crossOrigin="anonymous" />
         <link rel="icon" href="/favicon.ico?v=2" sizes="32x32" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=2" />

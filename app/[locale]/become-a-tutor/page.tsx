@@ -8,7 +8,6 @@ import { WhoWereLookingFor } from '@/components/become-a-tutor/WhoWereLookingFor
 import { StepsTimeline } from '@/components/shared/StepsTimeline';
 import { SubjectFAQs } from '@/components/shared/SubjectFAQs';
 import { CTASection } from '@/components/shared/CTASection';
-import { JsonLd } from '@/components/seo/JsonLd';
 
 export async function generateMetadata({
   params,
@@ -36,7 +35,6 @@ export default async function BecomeATutorPage({
 
   return (
     <>
-      <JsonLd />
       <TutorHero />
       <WhyTutor />
       <WhoWereLookingFor />

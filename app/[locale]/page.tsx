@@ -1,7 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { createMetadata } from '@/lib/metadata';
-import { JsonLd } from '@/components/seo/JsonLd';
 import { Hero } from '@/components/home/Hero';
 import { HeroStatsBanner } from '@/components/home/HeroStatsBanner';
 import type { Metadata } from 'next';
@@ -36,7 +35,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <>
-      <JsonLd />
       <Hero />
       <HeroStatsBanner />
       <USP />

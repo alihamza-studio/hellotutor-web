@@ -33,7 +33,15 @@ export default async function Ks3TutorsPage({ params }: { params: Promise<{ loca
 
   return (
     <>
-      <JsonLd />
+      <JsonLd
+        data={{
+          '@type': 'Service',
+          serviceType: 'KS3 Tutoring',
+          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
+          audience: { '@type': 'Audience', audienceType: 'Students and Parents' },
+        }}
+      />
       <BaseHero
         title={t('levelPages.ks3Tutors.heroTitle')}
         subtitle={t('levelPages.ks3Tutors.heroSubtitle')}

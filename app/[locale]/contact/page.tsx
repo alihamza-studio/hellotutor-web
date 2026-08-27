@@ -6,7 +6,6 @@ import type { Metadata } from 'next';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { SubjectFAQs } from '@/components/shared/SubjectFAQs';
 import { CTASection } from '@/components/shared/CTASection';
-import { JsonLd } from '@/components/seo/JsonLd';
 
 export async function generateMetadata({
   params,
@@ -29,7 +28,6 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
 
   return (
     <>
-      <JsonLd />
       <ContactHero />
       <ContactForm />
       <SubjectFAQs translationKey="contactPage.faqs" />

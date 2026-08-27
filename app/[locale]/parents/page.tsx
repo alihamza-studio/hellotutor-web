@@ -9,7 +9,6 @@ import { Testimonials } from '@/components/shared/Testimonials';
 import { StepsTimeline } from '@/components/shared/StepsTimeline';
 import { SubjectFAQs } from '@/components/shared/SubjectFAQs';
 import { CTASection } from '@/components/shared/CTASection';
-import { JsonLd } from '@/components/seo/JsonLd';
 
 export async function generateMetadata({
   params,
@@ -33,7 +32,6 @@ export default async function ForParentsPage({ params }: { params: Promise<{ loc
 
   return (
     <>
-      <JsonLd />
       <BaseHero
         title={t('aboutPages.forParents.heroTitle')}
         subtitle={t('aboutPages.forParents.heroSubtitle')}

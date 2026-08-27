@@ -1,7 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
 import { createMetadata } from '@/lib/metadata';
-import { JsonLd } from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 import { Hero } from '@/components/how-it-works/Hero';
 import { Steps } from '@/components/how-it-works/Steps';
@@ -30,7 +29,6 @@ export default async function HowItWorksPage({ params }: { params: Promise<{ loc
 
   return (
     <>
-      <JsonLd />
       <Hero />
       <Steps />
       <HowLessonsWork />

@@ -7,7 +7,6 @@ import { WhatWeCover } from '@/components/shared/WhatWeCover';
 import { CommitmentBanner } from '@/components/shared/CommitmentBanner';
 import { SubjectFAQs } from '@/components/shared/SubjectFAQs';
 import { CTASection } from '@/components/shared/CTASection';
-import { JsonLd } from '@/components/seo/JsonLd';
 
 export async function generateMetadata({
   params,
@@ -35,7 +34,6 @@ export default async function SafetyAndTrustPage({
 
   return (
     <>
-      <JsonLd />
       <BaseHero
         title={t('aboutPages.safetyAndTrust.heroTitle')}
         subtitle={t('aboutPages.safetyAndTrust.heroSubtitle')}
