@@ -8266,7 +8266,7 @@
     },
     "targetAudience": {
       "title": "Who it's for",
-      "subtitle": "Schools use Hello Tutor programmes for:",
+      "subtitle": "Our specialists deliver focused, engaging sessions that back up classroom teaching — from closing attainment gaps to giving SEN pupils the extra support they need. Every programme is built around your school's needs.",
       "items": {
         "1": {
           "title": "Exam groups.",
@@ -8341,7 +8341,7 @@
         },
         "5": {
           "title": "Specialists you can stand behind.",
-          "desc": "DBS-checked, many MOHRE-licensed, drawn from leading universities."
+          "desc": "DBS-checked, MOHRE-licensed, drawn from leading universities."
         }
       }
     },

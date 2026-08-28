@@ -24,7 +24,7 @@ export function Hero() {
   const t = useTranslations('forSchools');
   const tCommon = useTranslations('common');
   const tHero = useTranslations('hero');
-  const imageSrc = "https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/for-schools/for-school-hero.jpg";
+  const imageSrc = "https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/for-schools/for-school-hero-n.jpg";
 
   return (
     <section className="pt-[calc(40px+8rem)] xl:pt-[calc(48px+8rem)] bg-surface">
@@ -63,14 +63,6 @@ export function Hero() {
             >
               <WhatsAppIcon className="w-5 h-5" />
               {tCommon('bookConsultation')}
-            </Button>
-            <Button
-              href="/how-it-works"
-              variant="outline"
-              size="lg"
-              className="w-full sm:w-auto bg-white"
-            >
-              {tCommon('howItWorks')}
             </Button>
           </motion.div>
 
