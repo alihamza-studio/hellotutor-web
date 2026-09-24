@@ -69,6 +69,10 @@ export const mainNav: NavItem[] = [
       { titleKey: 'about.aboutUs', href: '/about' },
       { titleKey: 'about.safetyAndTrust', href: '/safety-and-trust' },
       { titleKey: 'about.allFaqs', href: '/faqs' },
+      {
+        titleKey: 'nav.partners',
+        children: [{ titleKey: 'nav.magrudy', href: '/partners/magrudy' }],
+      },
     ],
   },
   { titleKey: 'nav.becomeATutor', href: '/become-a-tutor' },

@@ -2268,7 +2268,9 @@
     "music": "Music",
     "chess": "Chess",
     "football": "Football",
-    "forSchools": "For Schools"
+    "forSchools": "For Schools",
+    "partners": "Partners",
+    "magrudy": "Magrudy"
   },
   "subjects": {
     "allSubjects": "All Subjects",
@@ -8493,5 +8495,173 @@
     "metaTitle": "University Admissions Support in Dubai | Hello Tutor",
     "metaDescription": "Expert guidance for UAE students applying to UK, US, Canadian and European universities. Application, visa and accommodation support.",
     "title": "University Admissions Abroad"
+  },
+  "magrudy": {
+    "metaTitle": "Magrudy’s offer — 10% off tutoring | Hello Tutor",
+    "metaDescription": "Magrudy’s families get 10% off their first Hello Tutor term and a free 30-minute diagnostic test. Personalised tutoring online or at home in the UAE.",
+    "partner": "Magrudy’s × Hello Tutor",
+    "eyebrow": "A partnership for their next step",
+    "heroTitle": "Everything for school from Magrudy’s.",
+    "heroAccent": "Tutors from Hello Tutor.",
+    "intro": "Magrudy’s has been getting UAE families ready for school since 1975. Hello Tutor has matched families with the right tutor since 2018. Now there is an offer on your child’s next step: personalised one-to-one tutoring.",
+    "cta": "Claim your Magrudy’s offer",
+    "supporting": "Free diagnostic test. No commitment. 10% off your first term.",
+    "proof": ["4.9 star rating", "95% student satisfaction", "Tutoring since 2018"],
+    "offerLabel": "Your next chapter starts here",
+    "discount": "10%",
+    "discountLabel": "off your first term",
+    "freeTest": "Plus a free 30-minute diagnostic test",
+    "termLengths": "3, 6 or 9 months",
+    "offerNote": "For Magrudy’s families new to Hello Tutor",
+    "included": {
+      "title": "10% off your first term.",
+      "subtitle": "The diagnostic test is on us.",
+      "items": [
+        "10% off any 3, 6 or 9 month term for families new to Hello Tutor.",
+        "A free 30-minute diagnostic test so we know where your child stands.",
+        "A tutor matched by our team to your child’s level and goals.",
+        "Your choice of online or at home."
+      ],
+      "imageAlt": "Student studying at a laptop"
+    },
+    "why": {
+      "title": "Why Hello Tutor",
+      "subtitle": "Personalised support, every step of the way.",
+      "cards": [
+        {
+          "title": "Matched by us.",
+          "desc": "We interview every tutor, check references, and match by subject and level."
+        },
+        {
+          "title": "Safeguarding as standard",
+          "desc": "Every tutor is DBS-checked and holds a MOHRE private teacher permit."
+        },
+        {
+          "title": "They know your curriculum",
+          "desc": "British, IB and American. From primary to A-Level and IB. Your tutor knows the exam board."
+        },
+        {
+          "title": "Progress after every lesson",
+          "desc": "You get a written summary after every session, so you always see what was covered and what comes next."
+        },
+        {
+          "title": "Built around family life",
+          "desc": "Lessons fit around school and activities."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How to redeem",
+      "subtitle": "Three simple steps to your child’s next chapter.",
+      "stepLabel": "Step",
+      "items": [
+        {
+          "title": "Send your details",
+          "desc": "Complete the short form to claim your 10%."
+        },
+        {
+          "title": "Meet your match",
+          "desc": "We book your diagnostic test and introduce your tutor."
+        },
+        {
+          "title": "Start learning",
+          "desc": "Choose your term and whether you want lessons online or at home."
+        }
+      ]
+    },
+    "coverage": {
+      "eyebrow": "What we cover",
+      "title": "Every stage, every subject that counts.",
+      "cards": [
+        {
+          "title": "Primary",
+          "desc": "Strong foundations and a love of reading.",
+          "subjects": "English, maths, science, 11+ prep."
+        },
+        {
+          "title": "Secondary",
+          "desc": "Core subjects and exam technique that holds up.",
+          "subjects": "English, maths, sciences, Arabic, languages."
+        },
+        {
+          "title": "A-Level and IB",
+          "desc": "Specialist tutors for the grades that open the next door.",
+          "subjects": "Sciences, maths, economics, humanities."
+        }
+      ]
+    },
+    "ways": {
+      "title": "Ways to learn",
+      "items": [
+        {
+          "title": "Online",
+          "desc": "One-to-one in our own online classroom, with a shared interactive workspace and lessons recorded to rewatch anytime."
+        },
+        {
+          "title": "At home",
+          "desc": "A tutor at your table. Ideal for younger learners and focused revision."
+        },
+        {
+          "title": "Terms",
+          "desc": "Choose 3, 6 or 9 months. Longer terms save more, on top of your Magrudy’s discount."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Partnership terms",
+      "items": [
+        {
+          "title": "Who it is for",
+          "desc": "Magrudy’s customers new to Hello Tutor, resident in the UAE."
+        },
+        {
+          "title": "The discount",
+          "desc": "10% off the first term of tutoring (3, 6 or 9 months), applied after the free diagnostic test."
+        },
+        {
+          "title": "Included free",
+          "desc": "A 30-minute diagnostic test and a tutor match, at no cost or commitment."
+        },
+        {
+          "title": "Redemptions",
+          "desc": "One per family. Not combinable with other Hello Tutor offers."
+        },
+        {
+          "title": "Delivery",
+          "desc": "Online across the UAE, or at home in serviced areas. Availability confirmed at booking."
+        },
+        {
+          "title": "Validity",
+          "desc": "Ongoing while the Magrudy’s partnership is active. Hello Tutor may amend or withdraw the offer with notice."
+        },
+        {
+          "title": "After the first term",
+          "desc": "Standard Hello Tutor rates and scheduling apply."
+        }
+      ]
+    },
+    "form": {
+      "eyebrow": "Claim your offer",
+      "title": "Reserve your place.",
+      "intro": "Fill in your details and we will be in touch within one working day to book your free diagnostic test. Fields marked * are required.",
+      "name": "Parent’s name",
+      "email": "Email",
+      "phone": "Mobile",
+      "level": "Level",
+      "curriculum": "Curriculum",
+      "subjects": "Subject(s) needed",
+      "levels": ["Primary", "Secondary", "A-Level / IB / AP"],
+      "curricula": ["British", "IB", "American", "Other"],
+      "automatic": "Your 10% Magrudy’s discount is applied automatically.",
+      "submit": "Claim my offer",
+      "submitting": "Reserving your offer…",
+      "consent": "By submitting, you agree to be contacted by Hello Tutor about your enquiry. One redemption per family.",
+      "successTitle": "Your offer is reserved.",
+      "success": "A Hello Tutor coordinator will call to arrange your diagnostic test and apply your Magrudy’s discount.",
+      "phoneError": "Enter a valid UAE mobile number.",
+      "requiredError": "Please complete all required fields.",
+      "error": "We could not reserve your offer. Please try again.",
+      "networkError": "We could not connect. Please check your connection and try again."
+    }
   }
 }

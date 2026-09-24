@@ -1,5 +1,6 @@
 'use client';
 
+import { cn } from '@/lib/utils';
 import { Container } from '@/components/layout/Container';
 import { HighlightText } from '@/components/ui/HighlightText';
 import { motion } from 'framer-motion';
@@ -15,9 +16,10 @@ import {
 
 interface FeatureGridProps {
   translationKey: string;
+  iconBackground?: 'brand' | 'surface';
 }
 
-export function FeatureGrid({ translationKey }: FeatureGridProps) {
+export function FeatureGrid({ translationKey, iconBackground = 'brand' }: FeatureGridProps) {
   const t = useTranslations(translationKey);
 
   const icons = [
@@ -80,7 +82,12 @@ export function FeatureGrid({ translationKey }: FeatureGridProps) {
               transition={{ duration: 0.5, delay: 0.1 * index }}
               className="bg-white rounded-3xl p-6"
             >
-              <div className="w-12 h-12 rounded-full bg-icon-accent-bg flex items-center justify-center mb-6">
+              <div
+                className={cn(
+                  'w-12 h-12 rounded-full flex items-center justify-center mb-6',
+                  iconBackground === 'surface' ? 'bg-surface' : 'bg-icon-accent-bg',
+                )}
+              >
                 {card.icon}
               </div>
               <h3 className="text-h5 font-semibold text-content mb-3">{card.title}</h3>

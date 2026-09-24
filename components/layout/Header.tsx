@@ -64,7 +64,6 @@ export function Header() {
  ? 'text-white/80 hover:text-white'
  : 'text-content-secondary hover:text-content-brand-strong'
  )}
- aria-expanded="false"
  aria-haspopup="true"
  >
  {item.titleKey.includes('.')
@@ -77,7 +76,7 @@ export function Header() {
  </button>
 
  {/* Dropdown Menu */}
- <div className="absolute top-full start-0 pt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[110]">
+ <div className="absolute top-full start-0 pt-2 w-64 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200 z-[110]">
  <div className="bg-white border border-edge rounded-lg shadow-lg p-2 flex flex-col gap-1">
  {item.children.map((child) => (
  <div key={child.titleKey} className="flex flex-col">
@@ -110,7 +109,7 @@ export function Header() {
  </button>
 
  {child.children && (
- <div className="absolute top-0 start-full ms-1 w-56 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200 z-[120]">
+ <div className="absolute top-0 start-full ps-1 w-56 opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible group-focus-within/sub:opacity-100 group-focus-within/sub:visible transition-all duration-200 z-[120]">
  <div className="bg-white border border-edge rounded-lg shadow-lg p-2 flex flex-col gap-1">
  {child.children.map(
  (subChild) =>

@@ -31,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/activities/chess',
     '/activities/football',
     '/about',
+    '/partners/magrudy',
     '/contact',
     '/become-a-tutor',
     '/faqs',
