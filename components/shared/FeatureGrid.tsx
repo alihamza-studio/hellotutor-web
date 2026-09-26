@@ -61,15 +61,17 @@ export function FeatureGrid({ translationKey, iconBackground = 'brand' }: Featur
               {t('title')}
             </HighlightText>
           </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-body-lg text-content-tertiary"
-          >
-            {t('subtitle')}
-          </motion.p>
+          {t.has('subtitle') && (
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="text-body-lg text-content-tertiary"
+            >
+              {t('subtitle')}
+            </motion.p>
+          )}
         </div>
 
         <div className={`grid grid-cols-1 md:grid-cols-2 ${gridCols} gap-4`}>

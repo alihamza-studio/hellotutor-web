@@ -30,15 +30,17 @@ export function StepsTimeline({ translationKey }: StepsTimelineProps) {
           >
             <HighlightText words={['Works', 'Process', 'Application']}>{t('title')}</HighlightText>
           </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-body-lg text-content-secondary"
-          >
-            {t('subtitle')}
-          </motion.p>
+          {t.has('subtitle') && (
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="text-body-lg text-content-secondary"
+            >
+              {t('subtitle')}
+            </motion.p>
+          )}
         </div>
 
         {/* Desktop: alternating timeline */}

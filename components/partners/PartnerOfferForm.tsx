@@ -3,24 +3,17 @@
 import { useRef, useState, type FormEvent } from 'react';
 import { useTranslations } from 'next-intl';
 import { parsePhoneNumberFromString } from 'libphonenumber-js';
-import { Check, CheckCircle2, Loader2 } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { CheckCircle2, Loader2 } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
 const inputClass =
   'w-full rounded-xl border border-edge bg-surface-base px-4 py-3 text-body-base text-content outline-none focus:border-edge-focus focus:ring-1 focus:ring-edge-focus';
-const levelValues = ['Primary', 'Secondary', 'A-Level / IB / AP'];
-const curriculumValues = ['British', 'IB', 'American', 'Other'];
 
 export function PartnerOfferForm() {
   const t = useTranslations('magrudy.form');
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success'>('idle');
-  const [selectedLevel, setSelectedLevel] = useState('');
-  const [selectedCurricula, setSelectedCurricula] = useState<string[]>([]);
   const [error, setError] = useState('');
   const submitting = useRef(false);
-  const levels = t.raw('levels') as string[];
-  const curricula = t.raw('curricula') as string[];
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -29,9 +22,8 @@ export function PartnerOfferForm() {
     const fields = new FormData(form);
     const value = (key: string) => String(fields.get(key) || '').trim();
     setError('');
-    if (!value('fullName') || !value('email') || !value('level')) {
+    if (!value('fullName') || !value('email')) {
       setError(t('requiredError'));
-      if (!selectedLevel) form.querySelector<HTMLButtonElement>('[data-level-choice]')?.focus();
       return;
     }
     const phone = parsePhoneNumberFromString(value('phoneNumber'), 'AE');
@@ -57,10 +49,7 @@ export function PartnerOfferForm() {
           phoneNumber: phone.nationalNumber,
           preferredContact: ['phone'],
           message: [
-            "Magrudy's partnership offer: 10% off the first 3, 6 or 9 month term and a free 30-minute diagnostic test.",
-            `Level: ${value('level')}`,
-            `Curriculum: ${fields.getAll('curriculum').join(', ') || 'Not specified'}`,
-            `Subjects: ${value('subjects') || 'Not specified'}`,
+            "Magrudy's partnership offer: 10% off the first 3, 6 or 9 month term and a free 30-minute baseline test.",
             'Source: /partners/magrudy',
             'Parent agreed to be contacted about this enquiry.',
           ].join('\n'),
@@ -156,85 +145,6 @@ export function PartnerOfferForm() {
                   className={`${inputClass} min-w-0 flex-1`}
                 />
               </div>
-            </div>
-            <fieldset>
-              <legend className="text-body-sm font-medium text-content mb-3">{t('level')} *</legend>
-              <div className="flex flex-wrap gap-3">
-                <input type="hidden" name="level" value={selectedLevel} />
-                {levels.map((label, i) => (
-                  <button
-                    key={label}
-                    type="button"
-                    data-level-choice
-                    aria-pressed={selectedLevel === levelValues[i]}
-                    onClick={() => {
-                      setSelectedLevel(levelValues[i]);
-                      setError('');
-                    }}
-                    className={cn(
-                      'inline-flex items-center gap-2 px-4 py-2.5 rounded-md border text-sm font-medium transition-all cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-edge-focus',
-                      selectedLevel === levelValues[i]
-                        ? 'bg-surface-action border-surface-action text-content'
-                        : 'bg-surface-base border-edge text-content-secondary hover:border-edge-focus hover:text-content',
-                    )}
-                  >
-                    {label}
-                    {selectedLevel === levelValues[i] && (
-                      <Check className="w-4 h-4" aria-hidden="true" />
-                    )}
-                  </button>
-                ))}
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend className="text-body-sm font-medium text-content mb-3">
-                {t('curriculum')}
-              </legend>
-              <div className="flex flex-wrap gap-3">
-                {selectedCurricula.map((value) => (
-                  <input key={value} type="hidden" name="curriculum" value={value} />
-                ))}
-                {curricula.map((label, i) => (
-                  <button
-                    key={label}
-                    type="button"
-                    aria-pressed={selectedCurricula.includes(curriculumValues[i])}
-                    onClick={() =>
-                      setSelectedCurricula((previous) =>
-                        previous.includes(curriculumValues[i])
-                          ? previous.filter((value) => value !== curriculumValues[i])
-                          : [...previous, curriculumValues[i]],
-                      )
-                    }
-                    className={cn(
-                      'inline-flex items-center gap-2 px-4 py-2.5 rounded-md border text-sm font-medium transition-all cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-edge-focus',
-                      selectedCurricula.includes(curriculumValues[i])
-                        ? 'bg-surface-action border-surface-action text-content'
-                        : 'bg-surface-base border-edge text-content-secondary hover:border-edge-focus hover:text-content',
-                    )}
-                  >
-                    {label}
-                    {selectedCurricula.includes(curriculumValues[i]) && (
-                      <Check className="w-4 h-4" aria-hidden="true" />
-                    )}
-                  </button>
-                ))}
-              </div>
-            </fieldset>
-            <div>
-              <label
-                htmlFor="partner-subjects"
-                className="block text-body-sm font-medium text-content mb-2"
-              >
-                {t('subjects')}
-              </label>
-              <textarea
-                id="partner-subjects"
-                name="subjects"
-                rows={3}
-                maxLength={2000}
-                className={inputClass}
-              />
             </div>
           </fieldset>
           {error && (
