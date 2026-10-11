@@ -1,0 +1,7 @@
+# Click navigation fix
+
+The desktop header previously used independent CSS group-hover and group-focus-within rules. A focused menu remained visible while another menu was hovered, and link selection did not reset visibility.
+
+Extracted the existing desktop navigation into DesktopNavigation, with one active root and one active nested disclosure. Menus open only on button activation. All link clicks (including same-page links), outside pointer presses, focus leaving navigation and viewport resizing close the disclosures. Escape closes the innermost menu and returns focus to its trigger. The header keys navigation by pathname to reset it on route changes. Existing mobile navigation remains separate.
+
+Local browser verification passed: Activities to About switches rather than overlaps; About > Partners > Magrudy closes both menus on the current page; Secondary Tutors to Universities replaces the submenu; repeated trigger click toggles closed; Enter opens; Escape closes nested then root with focus restored; outside click and Tab to Login close menus. Desktop appearance and 390px mobile drawer opening/closing inspected. No hover/focus visibility classes remain. TypeScript and focused ESLint passed. User authorised pushing this pending fix together with the contact-number update to staging (`test`) and `main` on 11 October 2026. Final production build (including TypeScript), focused ESLint and whitespace checks passed.

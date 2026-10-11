@@ -1,5 +1,5 @@
-const whatsappNumber = '971585817335';
-const whatsappFormatted = '+971 58 581 7335';
+const whatsappFormatted = '+971 58 538 7861';
+const whatsappNumber = whatsappFormatted.replace(/\D/g, '');
 
 export const siteConfig = {
   name: 'HelloTutor',
@@ -10,6 +10,7 @@ export const siteConfig = {
   loginUrl: 'https://app.hellotutor.me',
   whatsappNumber,
   whatsappFormatted,
+  phoneUrl: `tel:+${whatsappNumber}`,
   whatsappUrl: `https://api.whatsapp.com/send/?phone=${whatsappNumber}&text&type=phone_number&app_absent=0`,
   links: {
     twitter: '',

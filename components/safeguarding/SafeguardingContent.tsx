@@ -362,11 +362,11 @@ export function SafeguardingContent() {
                                                 safeguarding@hellotutor.me
                                             </a>
                                             <a
-                                                href={`tel:${siteConfig.whatsappFormatted.replace(/ /g, '')}`}
+                                                href={siteConfig.phoneUrl}
                                                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md bg-white border border-edge text-content text-body-sm font-semibold hover:bg-surface-strong transition-colors"
                                             >
                                                 <Phone className="w-4 h-4" />
-                                                +971 58 581 7335
+                                                {siteConfig.whatsappFormatted}
                                             </a>
                                         </div>
                                     </div>

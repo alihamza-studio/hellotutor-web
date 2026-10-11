@@ -515,7 +515,7 @@ function ContactWays() {
  key: 'phone',
  icon: Phone,
  value: siteConfig.whatsappFormatted,
- href: `tel:${siteConfig.whatsappNumber}`,
+ href: siteConfig.phoneUrl,
  color: 'bg-blue-50 text-blue-600',
  },
  ];
