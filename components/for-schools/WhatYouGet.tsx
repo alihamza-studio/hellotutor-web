@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export function WhatYouGet() {
   const t = useTranslations('forSchools.whatYouGet');
-  const items = ['1', '2', '3', '4', '5'];
+  const items = ['1', '2', '3', '4'];
   const imageSrc =
     'https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/for-schools/student-online.jpg';
 
@@ -24,17 +24,8 @@ export function WhatYouGet() {
             transition={{ duration: 0.5 }}
             className="text-h2 md:text-h1 font-bold text-content mb-4"
           >
-            <HighlightText words={['What you get', 'ما تحصل عليه']}>{t('title')}</HighlightText>
+            <HighlightText words={['school', 'مدرستك']}>{t('title')}</HighlightText>
           </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-body-lg text-content-secondary"
-          >
-            {t('subtitle')}
-          </motion.p>
         </div>
 
         {/* 2-Column Content Grid: Left List + Right Image */}

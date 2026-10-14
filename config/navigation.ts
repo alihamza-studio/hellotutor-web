@@ -66,6 +66,7 @@ export const mainNav: NavItem[] = [
     titleKey: 'nav.about',
     children: [
       { titleKey: 'about.forParents', href: '/parents' },
+      { titleKey: 'nav.forSchools', href: '/for-schools' },
       { titleKey: 'about.aboutUs', href: '/about' },
       { titleKey: 'about.safetyAndTrust', href: '/safety-and-trust' },
       { titleKey: 'about.allFaqs', href: '/faqs' },

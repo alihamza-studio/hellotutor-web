@@ -363,6 +363,7 @@ export function PricingSection() {
                       {/* CTA */}
                       <Button
                         href={siteConfig.whatsappUrl}
+                        hoverChildren={siteConfig.whatsappFormatted}
                         size="lg"
                         variant={isAdvanced ? 'primary' : 'dark'}
                         className="w-full mb-10"

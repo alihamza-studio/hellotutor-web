@@ -20,7 +20,7 @@ export function Footer() {
               <Logo variant="white" />
             </div>
             <p className="text-xl md:text-2xl font-medium max-w-sm text-white/90 leading-tight mb-8 whitespace-pre-line">
-              {t('footer.tagline')}
+              {t.rich('footer.tagline', { em: (chunks) => <em>{chunks}</em> })}
             </p>
 
             <div className="flex items-center gap-3">
@@ -138,7 +138,7 @@ export function Footer() {
       </div>
 
       {/* Bottom Legal Row */}
-      <div className="bg-[#0F0F0F]">
+      <div className="bg-content">
         <Container>
           <div className="py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-[13px] text-white/70">
             <p>{t('common.copyright', { year: currentYear })}</p>

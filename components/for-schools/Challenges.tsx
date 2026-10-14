@@ -19,7 +19,7 @@ export function Challenges() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-h2 text-content">
-              <HighlightText words={['gap', 'فجوة']}>{t('title')}</HighlightText>
+              <HighlightText words={['partner', 'الشراكة']}>{t('title')}</HighlightText>
             </h2>
           </motion.div>
 

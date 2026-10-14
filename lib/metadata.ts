@@ -6,6 +6,7 @@ interface CreateMetadataParams {
   description?: string;
   path?: string;
   image?: string;
+  imageAlt?: string;
   locale?: string;
   noIndex?: boolean;
 }
@@ -19,14 +20,15 @@ export function createMetadata({
   description = siteConfig.description,
   path = '',
   image = siteConfig.ogImage,
+  imageAlt,
   locale = 'ae-en', // Default to ae-en just in case
   noIndex = false,
 }: CreateMetadataParams): Metadata {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
   const finalPath = cleanPath === '/' ? '' : cleanPath;
-  
+
   const currentPrefix = locale === 'ae-ar' ? '/ae-ar' : '/ae-en';
-  
+
   const currentUrl = `${siteConfig.url}${currentPrefix}${finalPath}`;
   const enUrl = `${siteConfig.url}/ae-en${finalPath}`;
   const arUrl = `${siteConfig.url}/ae-ar${finalPath}`;
@@ -36,7 +38,11 @@ export function createMetadata({
     title.includes('HelloTutor') ||
     title.includes('هيلو تيوتر') ||
     title.includes('هالو تيوتر');
-  const finalTitle = hasBrand ? title : (locale === 'ae-ar' ? `${title} | هيلو تيوتر` : `${title} | Hello Tutor`);
+  const finalTitle = hasBrand
+    ? title
+    : locale === 'ae-ar'
+      ? `${title} | هيلو تيوتر`
+      : `${title} | Hello Tutor`;
 
   return {
     title: finalTitle,
@@ -68,7 +74,7 @@ export function createMetadata({
               url: image,
               width: 1200,
               height: 630,
-              alt: finalTitle,
+              alt: imageAlt ?? finalTitle,
             },
           ]
         : [],
@@ -85,9 +91,7 @@ export function createMetadata({
         { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
         { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
       ],
-      apple: [
-        { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
-      ],
+      apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
     },
   };
 }

@@ -16,7 +16,9 @@ export function AllSubjectsList({ translationKey, buttonHref }: AllSubjectsListP
   const t = useTranslations(translationKey);
 
   const listRaw = t.raw('list');
-  const subjectsList = (Array.isArray(listRaw) ? listRaw : Object.values(listRaw || {})) as string[];
+  const subjectsList = (
+    Array.isArray(listRaw) ? listRaw : Object.values(listRaw || {})
+  ) as string[];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -89,7 +91,16 @@ export function AllSubjectsList({ translationKey, buttonHref }: AllSubjectsListP
           transition={{ delay: 0.4 }}
           className="flex flex-col items-center justify-center gap-4 max-w-xl mx-auto"
         >
-          <Button href={buttonHref || siteConfig.whatsappUrl} variant="primary" size="lg">
+          <Button
+            href={buttonHref || siteConfig.whatsappUrl}
+            variant="primary"
+            size="lg"
+            hoverChildren={
+              !buttonHref || buttonHref === siteConfig.whatsappUrl
+                ? siteConfig.whatsappFormatted
+                : undefined
+            }
+          >
             {t('buttonText')}
           </Button>
         </motion.div>

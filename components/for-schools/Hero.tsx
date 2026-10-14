@@ -22,9 +22,8 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 
 export function Hero() {
   const t = useTranslations('forSchools');
-  const tCommon = useTranslations('common');
-  const tHero = useTranslations('hero');
-  const imageSrc = "https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/for-schools/for-school-hero-n.jpg";
+  const imageSrc =
+    'https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/for-schools/for-school-hero-n.jpg';
 
   return (
     <section className="pt-[calc(40px+8rem)] xl:pt-[calc(48px+8rem)] bg-surface">
@@ -36,7 +35,7 @@ export function Hero() {
             transition={{ duration: 0.5 }}
             className="text-h1 text-content mb-6 "
           >
-            <HighlightText words={['platform', 'منصة']}>{t('heroTitle')}</HighlightText>
+            <HighlightText words={['income', 'دخل']}>{t('heroTitle')}</HighlightText>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -62,18 +61,9 @@ export function Hero() {
               hoverStartSlot={<WhatsAppIcon className="w-5 h-5" />}
             >
               <WhatsAppIcon className="w-5 h-5" />
-              {tCommon('bookConsultation')}
+              {t('heroCta')}
             </Button>
           </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-body-xs text-content-tertiary mb-10"
-          >
-            {tHero('noCommitment')}
-          </motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}

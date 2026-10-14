@@ -1,10 +1,11 @@
-"use client";
+'use client';
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
 import { siteConfig } from '@/config/site';
 import { useTranslations } from 'next-intl';
+import { usePathname } from '@/i18n/routing';
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
   <svg
@@ -20,13 +21,15 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 export function FloatingCTA() {
   const [isVisible, setIsVisible] = useState(false);
   const t = useTranslations('common');
+  const tSchools = useTranslations('forSchools');
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
-      
+
       // Hide if we are near the bottom (footer area)
       const isNearBottom = scrollPosition + windowHeight >= documentHeight - 300; // 300px threshold for footer
 
@@ -39,7 +42,7 @@ export function FloatingCTA() {
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
-    
+
     // Initial check
     handleScroll();
 
@@ -55,7 +58,7 @@ export function FloatingCTA() {
           initial={{ opacity: 0, y: 50, scale: 0.9 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 50, scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 260, damping: 20 }}
+          transition={{ type: 'spring', stiffness: 260, damping: 20 }}
           className="fixed bottom-8 right-8 z-50 hidden lg:block"
         >
           <Button
@@ -67,7 +70,7 @@ export function FloatingCTA() {
             hoverStartSlot={<WhatsAppIcon className="w-5 h-5" />}
           >
             <WhatsAppIcon className="w-5 h-5" />
-            {t('bookConsultation')}
+            {pathname === '/for-schools' ? tSchools('heroCta') : t('bookConsultation')}
           </Button>
         </motion.div>
       )}

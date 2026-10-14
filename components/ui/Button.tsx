@@ -47,23 +47,25 @@ function ButtonContent({
 }) {
   return (
     <>
-      <span
-        className={cn(
-          'relative z-10 inline-flex items-center gap-2 transition-all duration-normal ease-smooth',
-          hoverChildren && 'group-hover:opacity-0 group-hover:-translate-y-0.5',
-        )}
-      >
-        {children}
-      </span>
-      {hoverChildren && (
+      <span className="inline-grid items-center justify-items-center">
         <span
-          className="absolute inset-0 z-20 hidden xl:flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-normal ease-smooth translate-y-1 group-hover:translate-y-0"
-          aria-hidden="true"
+          className={cn(
+            'relative z-10 [grid-area:1/1] inline-flex items-center gap-2 transition-all duration-normal ease-smooth',
+            hoverChildren && 'group-hover:opacity-0 group-hover:-translate-y-0.5',
+          )}
         >
-          {hoverStartSlot}
-          <span dir="ltr">{hoverChildren}</span>
+          {children}
         </span>
-      )}
+        {hoverChildren && (
+          <span
+            className="relative z-20 [grid-area:1/1] flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-normal ease-smooth translate-y-1 group-hover:translate-y-0"
+            aria-hidden="true"
+          >
+            {hoverStartSlot}
+            <span dir="ltr">{hoverChildren}</span>
+          </span>
+        )}
+      </span>
       <span
         className="absolute inset-0 z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none bg-black/5"
         aria-hidden="true"

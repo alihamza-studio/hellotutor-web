@@ -75,7 +75,11 @@ export function CTASection({
             className="px-8"
             target="_blank"
             rel="noopener noreferrer"
-            hoverChildren={siteConfig.whatsappFormatted}
+            hoverChildren={
+              !buttonHref || buttonHref === siteConfig.whatsappUrl
+                ? siteConfig.whatsappFormatted
+                : undefined
+            }
             hoverStartSlot={<WhatsAppIcon className="w-5 h-5" />}
           >
             <WhatsAppIcon className="w-5 h-5" />

@@ -4,9 +4,9 @@ import { Container } from '@/components/layout/Container';
 import { HighlightText } from '@/components/ui/HighlightText';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { ShieldCheck, Video, Lock, Eye, FileBadge } from 'lucide-react';
+import { ShieldCheck, Video, Lock, Users, FileBadge } from 'lucide-react';
 
-const icons = [ShieldCheck, Video, Lock, Eye];
+const icons = [ShieldCheck, Video, Lock, Users];
 
 export function Safeguarding() {
   const t = useTranslations('forSchools.safeguarding');
@@ -46,13 +46,15 @@ export function Safeguarding() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.08 }}
-                className="bg-white p-6 rounded-3xl border border-edge flex flex-col justify-between"
+                className="bg-surface-base p-6 rounded-3xl border border-edge flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 text-primary">
-                    <Icon className="w-6 h-6" />
+                  <div className="w-12 h-12 rounded-full bg-surface-hover/50 flex items-center justify-center mb-6 text-content">
+                    <Icon className="w-5 h-5 text-content" aria-hidden="true" />
                   </div>
-                  <h3 className="text-h5 font-semibold text-content mb-2">{t(`items.${key}.title`)}</h3>
+                  <h3 className="text-h5 font-semibold text-content mb-2">
+                    {t(`items.${key}.title`)}
+                  </h3>
                   <p className="text-body-sm text-content-secondary leading-relaxed">
                     {t(`items.${key}.desc`)}
                   </p>

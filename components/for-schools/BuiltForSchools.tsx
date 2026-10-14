@@ -4,9 +4,9 @@ import { Container } from '@/components/layout/Container';
 import { HighlightText } from '@/components/ui/HighlightText';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { Check, Shield, Video, Layers, CalendarCheck, Users } from 'lucide-react';
+import { GraduationCap, Users, House, Video, FileText } from 'lucide-react';
 
-const icons = [Users, Video, Layers, CalendarCheck, Shield];
+const icons = [GraduationCap, Users, House, Video, FileText];
 
 export function BuiltForSchools() {
   const t = useTranslations('forSchools');
@@ -23,28 +23,16 @@ export function BuiltForSchools() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="text-h2 text-white mb-6"
+              className="text-h2 text-content-invert mb-6"
             >
-              <HighlightText words={['not bolted on', 'وليست إضافة']}>
+              <HighlightText words={['families', 'الأسر']}>
                 {t('builtForSchools.title')}
               </HighlightText>
             </motion.h2>
-
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-body-xl text-white leading-relaxed mb-8"
-            >
-              {t('builtForSchools.desc')}
-            </motion.p>
           </div>
 
           {/* Right Column - Why Hello Tutor Features */}
           <div className="lg:col-span-7 flex flex-col gap-4">
-
-
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {items.map((key, index) => {
                 const Icon = icons[index % icons.length];
@@ -55,16 +43,17 @@ export function BuiltForSchools() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: index * 0.08 }}
-                    className={`bg-white rounded-2xl p-6 border border-edge flex flex-col justify-between ${index === 4 ? 'sm:col-span-2' : ''
-                      }`}
+                    className={`bg-surface-base rounded-2xl p-6 border border-edge flex flex-col justify-between ${
+                      index === 4 ? 'sm:col-span-2' : ''
+                    }`}
                   >
                     <div>
-                      <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mb-4 text-primary">
-                        <Icon className="w-5 h-5" />
+                      <div className="w-12 h-12 rounded-full bg-surface-hover/50 flex items-center justify-center mb-4 text-content">
+                        <Icon className="w-5 h-5 text-content" aria-hidden="true" />
                       </div>
-                      <h4 className="text-h5 font-semibold text-content mb-1">
+                      <h3 className="text-h5 font-semibold text-content mb-1">
                         {t(`whyHelloTutor.items.${key}.title`)}
-                      </h4>
+                      </h3>
                       <p className="text-body-sm text-content-secondary leading-relaxed">
                         {t(`whyHelloTutor.items.${key}.desc`)}
                       </p>

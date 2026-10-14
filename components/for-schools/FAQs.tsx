@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
 export function FAQs() {
   const t = useTranslations('forSchools.faqs');
 
-  const faqItems = Array.from({ length: 8 }).map((_, i) => ({
+  const faqItems = Array.from({ length: 5 }).map((_, i) => ({
     question: t(`items.${i}.q`),
     answer: t(`items.${i}.a`),
   }));

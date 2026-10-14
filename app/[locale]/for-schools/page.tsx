@@ -5,7 +5,6 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import type { Metadata } from 'next';
 import { Hero } from '@/components/for-schools/Hero';
 import { Challenges } from '@/components/for-schools/Challenges';
-import { TargetAudience } from '@/components/for-schools/TargetAudience';
 import { WhatYouGet } from '@/components/for-schools/WhatYouGet';
 import { BuiltForSchools } from '@/components/for-schools/BuiltForSchools';
 import { Safeguarding } from '@/components/for-schools/Safeguarding';
@@ -25,6 +24,7 @@ export async function generateMetadata({
     title: t('metaTitle'),
     description: t('metaDescription'),
     path: '/for-schools',
+    imageAlt: t('ogImageAlt'),
     locale,
   });
 }
@@ -39,19 +39,22 @@ export default async function ForSchoolsPage({ params }: { params: Promise<{ loc
         data={{
           '@type': 'Service',
           serviceType: 'School Tutoring and Academic Partnerships',
-          provider: { '@type': 'Organization', name: 'HelloTutor', url: 'https://www.hellotutor.me' },
+          provider: {
+            '@type': 'Organization',
+            name: 'HelloTutor',
+            url: 'https://www.hellotutor.me',
+          },
           areaServed: ['Dubai', 'Abu Dhabi', 'Sharjah'],
           audience: { '@type': 'Audience', audienceType: 'Schools and Educational Institutions' },
         }}
       />
       <Hero />
       <Challenges />
-      <TargetAudience />
+      <HowItWorks />
       <WhatYouGet />
       <BuiltForSchools />
       <Safeguarding />
       <Curriculum />
-      <HowItWorks />
       <FAQs />
       <CTA />
     </>

@@ -6,7 +6,6 @@ import { HighlightText } from '@/components/ui/HighlightText';
 import { siteConfig } from '@/config/site';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { Mail, Phone } from 'lucide-react';
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
   <svg
@@ -21,7 +20,6 @@ const WhatsAppIcon = ({ className }: { className?: string }) => (
 
 export function CTA() {
   const t = useTranslations('forSchools.cta');
-  const tCommon = useTranslations('common');
 
   return (
     <section className="py-16 lg:py-24 bg-surface-strong text-center">
@@ -51,30 +49,28 @@ export function CTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8"
+          className="flex flex-col md:flex-row items-center justify-center gap-3 mb-8"
         >
           <Button
             href={siteConfig.whatsappUrl}
             variant="primary"
             size="lg"
-            className="w-full sm:w-auto px-8"
+            className="w-full md:w-auto px-8"
             hoverChildren={siteConfig.whatsappFormatted}
             hoverStartSlot={<WhatsAppIcon className="w-5 h-5" />}
           >
             <WhatsAppIcon className="w-5 h-5" />
-            {tCommon('bookConsultation')}
+            {t('btnCall')}
           </Button>
           <Button
             href="mailto:support@hellotutor.me"
             variant="outline"
             size="lg"
-            className="w-full sm:w-auto bg-white px-8"
+            className="w-full md:w-auto bg-surface-base px-8"
           >
             {t('btnOverview')}
           </Button>
         </motion.div>
-
-
       </Container>
     </section>
   );
