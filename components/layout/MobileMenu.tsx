@@ -200,14 +200,16 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             >
               {t('common.login')}
             </Button>
-            <Button
-              href={siteConfig.whatsappUrl}
-              variant="primary"
-              className="w-full"
-              hoverChildren={siteConfig.whatsappFormatted}
-            >
-              {t('common.bookConsultation')}
-            </Button>
+            {pathname !== '/become-a-tutor' && (
+              <Button
+                href={siteConfig.whatsappUrl}
+                variant="primary"
+                className="w-full"
+                hoverChildren={siteConfig.whatsappFormatted}
+              >
+                {t('common.bookConsultation')}
+              </Button>
+            )}
           </div>
         </div>
       </div>

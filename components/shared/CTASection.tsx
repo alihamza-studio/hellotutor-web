@@ -34,6 +34,7 @@ export function CTASection({
   highlightWord = 'find',
 }: CTASectionProps) {
   const t = useTranslations();
+  const isWhatsApp = !buttonHref || buttonHref === siteConfig.whatsappUrl;
 
   return (
     <section className="py-16 lg:py-20 bg-surface-strong">
@@ -75,14 +76,10 @@ export function CTASection({
             className="px-8"
             target="_blank"
             rel="noopener noreferrer"
-            hoverChildren={
-              !buttonHref || buttonHref === siteConfig.whatsappUrl
-                ? siteConfig.whatsappFormatted
-                : undefined
-            }
-            hoverStartSlot={<WhatsAppIcon className="w-5 h-5" />}
+            hoverChildren={isWhatsApp ? siteConfig.whatsappFormatted : undefined}
+            hoverStartSlot={isWhatsApp ? <WhatsAppIcon className="w-5 h-5" /> : undefined}
           >
-            <WhatsAppIcon className="w-5 h-5" />
+            {isWhatsApp && <WhatsAppIcon className="w-5 h-5" />}
             <span>{buttonText || t('common.bookConsultation')}</span>
           </Button>
         </motion.div>

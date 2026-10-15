@@ -136,6 +136,7 @@
     "features": {
       "f1": "Expert tutor matched to your child",
       "f2": "60-minute 1:1 online lessons",
+      "f2Home": "60-minute 1:1 home lessons",
       "f3": "Secure interactive classroom",
       "f4": "Lesson summaries after each lesson",
       "f5": "Monthly progress reviews",
@@ -4891,7 +4892,8 @@
     "hero": {
       "title": "Teach. Inspire. Make a difference.",
       "subtitle": "Join a tutoring community that values quality, consistency, and real relationships with students.",
-      "disclaimer": "No commitment. Takes 5 minutes."
+      "disclaimer": "No commitment. Takes 5 minutes.",
+      "buttonText": "Apply to Tutor"
     },
     "whyTutor": {
       "title": "Why Tutor with Hello Tutor",
@@ -5014,7 +5016,7 @@
     "cta": {
       "title": "Ready to start teaching?",
       "subtitle": "The application takes about 5 minutes. If you're a good fit, you'll hear from us within a few days.",
-      "buttonText": "Book a Free Consultation"
+      "buttonText": "Start Your Application"
     },
     "metaTitle": "Become a Private Tutor | UAE-Based | Hello Tutor",
     "metaDescription": "Hello Tutor works with exceptional graduates from top universities. All tutors are MOHRE-licensed and DBS-checked. Join our UAE-based network today."

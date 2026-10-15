@@ -51,6 +51,8 @@ export function FloatingCTA() {
     };
   }, []);
 
+  if (pathname === '/become-a-tutor') return null;
+
   return (
     <AnimatePresence>
       {isVisible && (

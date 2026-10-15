@@ -64,7 +64,9 @@ export function PricingSection() {
   const [level, setLevel] = useState<LevelType>('primary');
   const [term, setTerm] = useState<TermMonths>(3);
 
-  const features = Array.from({ length: 8 }).map((_, i) => t(`pricingSection.features.f${i + 1}`));
+  const features = Array.from({ length: 8 }).map((_, i) =>
+    t(i === 1 && mode === 'home' ? 'pricingSection.features.f2Home' : `pricingSection.features.f${i + 1}`),
+  );
 
   /* Compute pricing for each plan */
   const cards = useMemo(() => {

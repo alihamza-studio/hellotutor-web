@@ -7,6 +7,7 @@ import { WhyTutor } from '@/components/become-a-tutor/WhyTutor';
 import { WhoWereLookingFor } from '@/components/become-a-tutor/WhoWereLookingFor';
 import { StepsTimeline } from '@/components/shared/StepsTimeline';
 import { SubjectFAQs } from '@/components/shared/SubjectFAQs';
+import { siteConfig } from '@/config/site';
 import { CTASection } from '@/components/shared/CTASection';
 
 export async function generateMetadata({
@@ -44,6 +45,7 @@ export default async function BecomeATutorPage({
         title={t('title')}
         subtitle={t('subtitle')}
         buttonText={t('buttonText')}
+        buttonHref={siteConfig.tutorSignupUrl}
         highlightWord="teaching"
       />
     </>

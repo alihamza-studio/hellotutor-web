@@ -8,6 +8,7 @@ export const siteConfig = {
   ogImage: 'https://pub-c1e8cebadf004f2fb0c59e13ab317896.r2.dev/web/home/hero-main.png',
   locale: 'ae-en',
   loginUrl: 'https://app.hellotutor.me',
+  tutorSignupUrl: 'https://app.hellotutor.me/signup',
   whatsappNumber,
   whatsappFormatted,
   phoneUrl: `tel:+${whatsappNumber}`,
