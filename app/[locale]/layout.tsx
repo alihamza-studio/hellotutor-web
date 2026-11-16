@@ -34,8 +34,10 @@ import { Analytics } from '@/components/analytics/Analytics';
 import { CookieConsentProvider } from '@/components/providers/CookieConsentProvider';
 import { CookieBanner } from '@/components/ui/CookieBanner';
 import { CookieSettingsModal } from '@/components/ui/CookieSettingsModal';
+import { PublicFaqChat } from '@/components/shared/PublicFaqChat';
 import { FloatingCTA } from '@/components/ui/FloatingCTA';
 import { JsonLd } from '@/components/seo/JsonLd';
+import { publicFaqConfig } from '@/lib/public-faq-config';
 import { createMetadata } from '@/lib/metadata';
 import type { Viewport } from 'next';
 import '@/styles/globals.css';
@@ -118,6 +120,9 @@ export default async function LocaleLayout({
             <CookieBanner />
             <CookieSettingsModal />
             <FloatingCTA />
+            {publicFaqConfig() && (locale === 'ae-en' || locale === 'ae-ar') && (
+              <PublicFaqChat key={locale} locale={locale} />
+            )}
           </NextIntlClientProvider>
 
           <Analytics />
