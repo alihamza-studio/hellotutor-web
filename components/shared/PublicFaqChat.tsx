@@ -8,31 +8,33 @@ import styles from './PublicFaqOrb.module.css';
 
 const copy = {
   'ae-en': {
-    launch: 'Chat with HelloTutor',
-    title: 'HelloTutor Assistant',
-    greeting: 'Hi! I can help with questions about tutoring in the UAE.',
-    starters: ['How does HelloTutor work?', 'Is registration free?', 'How does pricing work?'],
+    launch: 'Chat with Hello Tutor',
+    title: 'Hello Tutor Assistant',
+    greeting: 'Hello! Have a question about tutoring? I’m happy to help.',
+    starters: ['How does Hello Tutor work?', 'Is registration free?', 'How does pricing work?'],
     close: 'Close chat',
     input: 'Type your question',
     send: 'Send question',
     loading: 'Checking...',
-    error: 'I couldn’t connect. Try again or contact HelloTutor.',
+    waiting: 'Thanks for waiting. I’m still checking…',
+    error: 'I couldn’t connect. Try again or contact Hello Tutor.',
     retry: 'Try again',
-    contact: 'Contact HelloTutor',
+    contact: 'Contact Hello Tutor',
     privacy: 'Please leave out account and payment details.',
   },
   'ae-ar': {
-    launch: 'دردشة مع HelloTutor',
-    title: 'مساعد HelloTutor',
-    greeting: 'أهلًا! يمكنني مساعدتك في أسئلتك عن الدروس الخصوصية في الإمارات.',
-    starters: ['كيف يعمل HelloTutor؟', 'هل التسجيل مجاني؟', 'كيف يتم تحديد الأسعار؟'],
+    launch: 'دردشة مع Hello Tutor',
+    title: 'مساعد Hello Tutor',
+    greeting: 'أهلًا! هل لديك سؤال عن الدروس الخصوصية؟ يسعدني مساعدتك.',
+    starters: ['كيف يعمل Hello Tutor؟', 'هل التسجيل مجاني؟', 'كيف يتم تحديد الأسعار؟'],
     close: 'إغلاق الدردشة',
     input: 'اكتب سؤالك',
     send: 'إرسال السؤال',
     loading: 'جارٍ التحقق...',
-    error: 'تعذّر الاتصال. حاول مرة أخرى أو تواصل مع HelloTutor.',
+    waiting: 'شكرًا لانتظارك. ما زلت أتحقق…',
+    error: 'تعذّر الاتصال. حاول مرة أخرى أو تواصل مع Hello Tutor.',
     retry: 'حاول مرة أخرى',
-    contact: 'تواصل مع HelloTutor',
+    contact: 'تواصل مع Hello Tutor',
     privacy: 'يرجى عدم إدخال بيانات الحساب أو الدفع.',
   },
 };
@@ -52,6 +54,13 @@ export function PublicFaqChat({ locale }: { locale: Locale }) {
   const [draft, setDraft] = useState('');
   const [turns, setTurns] = useState<Turn[]>([]);
   const [pending, setPending] = useState(false);
+  const [waiting, setWaiting] = useState(false);
+
+  useEffect(() => {
+    if (!pending) return;
+    const timer = window.setTimeout(() => setWaiting(true), 3000);
+    return () => window.clearTimeout(timer);
+  }, [pending]);
 
   useEffect(() => {
     const panel = log.current;
@@ -92,6 +101,7 @@ export function PublicFaqChat({ locale }: { locale: Locale }) {
     } finally {
       requestInFlight.current = false;
       setPending(false);
+      setWaiting(false);
     }
   }
 
@@ -174,7 +184,7 @@ export function PublicFaqChat({ locale }: { locale: Locale }) {
                   </div>
                 )}
                 {pending && !turn.result && !turn.failed && (
-                  <p className="me-5 w-fit rounded-2xl bg-surface p-3 text-content-secondary">{t.loading}</p>
+                  <p className="me-5 w-fit rounded-2xl bg-surface p-3 text-content-secondary">{waiting ? t.waiting : t.loading}</p>
                 )}
               </div>
             ))}
