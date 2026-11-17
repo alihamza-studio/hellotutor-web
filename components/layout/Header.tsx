@@ -9,7 +9,6 @@ import { Logo } from '@/components/ui/Logo';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 import { MobileMenu } from './MobileMenu';
 import { Container } from './Container';
-import { TopBar } from './TopBar';
 import { siteConfig } from '@/config/site';
 import { cn } from '@/lib/utils';
 import { Menu } from 'lucide-react';
@@ -32,7 +31,6 @@ export function Header() {
 
   return (
     <header className="fixed top-0 start-0 end-0 z-[100] transition-all duration-normal">
-      <TopBar />
       <div
         className={cn(
           'transition-all duration-normal border-b',
